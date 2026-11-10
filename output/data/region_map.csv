@@ -1,0 +1,128 @@
+code,riding,admin_region_code,admin_region,admin_share_of_electors,region,region_order
+299,Acadie,06,Montréal,1.0,Montréal – anglophone/allophone,1
+327,Bourassa-Sauvé,06,Montréal,1.0,Montréal – anglophone/allophone,1
+277,D'Arcy-McGee,06,Montréal,1.0,Montréal – anglophone/allophone,1
+259,Jacques-Cartier,06,Montréal,1.0,Montréal – anglophone/allophone,1
+331,Jeanne-Mance–Viger,06,Montréal,1.0,Montréal – anglophone/allophone,1
+339,LaFontaine,06,Montréal,1.0,Montréal – anglophone/allophone,1
+251,Marguerite-Bourgeoys,06,Montréal,1.0,Montréal – anglophone/allophone,1
+257,Marquette,06,Montréal,1.0,Montréal – anglophone/allophone,1
+297,Mont-Royal–Outremont,06,Montréal,1.0,Montréal – anglophone/allophone,1
+261,Nelligan,06,Montréal,1.0,Montréal – anglophone/allophone,1
+279,Notre-Dame-de-Grâce,06,Montréal,1.0,Montréal – anglophone/allophone,1
+267,Robert-Baldwin,06,Montréal,1.0,Montréal – anglophone/allophone,1
+281,Saint-Henri–Sainte-Anne,06,Montréal,1.0,Montréal – anglophone/allophone,1
+271,Saint-Laurent,06,Montréal,1.0,Montréal – anglophone/allophone,1
+321,Viau,06,Montréal,1.0,Montréal – anglophone/allophone,1
+291,Westmount–Saint-Louis,06,Montréal,1.0,Montréal – anglophone/allophone,1
+833,Anjou–Louis-Riel,06,Montréal,1.0,Montréal – francophone,2
+337,Camille-Laurin,06,Montréal,1.0,Montréal – francophone,2
+311,Gouin,06,Montréal,1.0,Montréal – francophone,2
+317,Hochelaga-Maisonneuve,06,Montréal,1.0,Montréal – francophone,2
+307,Laurier-Dorion,06,Montréal,1.0,Montréal – francophone,2
+301,Maurice-Richard,06,Montréal,1.0,Montréal – francophone,2
+313,Mercier,06,Montréal,1.0,Montréal – francophone,2
+341,Pointe-aux-Trembles,06,Montréal,1.0,Montréal – francophone,2
+319,Rosemont,06,Montréal,1.0,Montréal – francophone,2
+287,Sainte-Marie–Saint-Jacques,06,Montréal,1.0,Montréal – francophone,2
+247,Verdun,06,Montréal,1.0,Montréal – francophone,2
+351,Chomedey,13,Laval,1.0,Laval,3
+357,Fabre,13,Laval,1.0,Laval,3
+347,Laval-des-Rapides,13,Laval,1.0,Laval,3
+571,Mille-Îles,13,Laval,1.0,Laval,3
+359,Sainte-Rose,13,Laval,1.0,Laval,3
+569,Vimont-Auteuil,13,Laval,1.0,Laval,3
+589,Argenteuil,15,Laurentides,1.0,Laurentides–Lanaudière,4
+591,Bellefeuille,15,Laurentides,1.0,Laurentides–Lanaudière,4
+627,Berthier,14,Lanaudière,1.0,Laurentides–Lanaudière,4
+641,Bertrand,15,Laurentides,0.6316,Laurentides–Lanaudière,4
+607,Blainville,15,Laurentides,1.0,Laurentides–Lanaudière,4
+581,Deux-Montagnes,15,Laurentides,1.0,Laurentides–Lanaudière,4
+577,Groulx,15,Laurentides,1.0,Laurentides–Lanaudière,4
+629,Joliette,14,Lanaudière,1.0,Laurentides–Lanaudière,4
+621,L'Assomption,14,Lanaudière,1.0,Laurentides–Lanaudière,4
+649,Labelle,15,Laurentides,1.0,Laurentides–Lanaudière,4
+601,Les Plaines,14,Lanaudière,0.5043,Laurentides–Lanaudière,4
+611,Masson,14,Lanaudière,1.0,Laurentides–Lanaudière,4
+587,Mirabel,15,Laurentides,1.0,Laurentides–Lanaudière,4
+637,Prévost,15,Laurentides,1.0,Laurentides–Lanaudière,4
+617,Repentigny,14,Lanaudière,1.0,Laurentides–Lanaudière,4
+631,Rousseau,14,Lanaudière,1.0,Laurentides–Lanaudière,4
+597,Saint-Jérôme,15,Laurentides,1.0,Laurentides–Lanaudière,4
+609,Terrebonne,14,Lanaudière,1.0,Laurentides–Lanaudière,4
+179,Beauharnois,16,Montérégie,1.0,Montérégie (South Shore),5
+237,Borduas,16,Montérégie,1.0,Montérégie (South Shore),5
+207,Chambly,16,Montérégie,1.0,Montérégie (South Shore),5
+191,Châteauguay,16,Montérégie,1.0,Montérégie (South Shore),5
+131,Daniel-Johnson,16,Montérégie,0.5077,Montérégie (South Shore),5
+171,Huntingdon,16,Montérégie,1.0,Montérégie (South Shore),5
+161,Iberville,16,Montérégie,1.0,Montérégie (South Shore),5
+201,La Pinière,16,Montérégie,1.0,Montérégie (South Shore),5
+199,La Prairie,16,Montérégie,1.0,Montérégie (South Shore),5
+219,Marie-Victorin,16,Montérégie,1.0,Montérégie (South Shore),5
+227,Montarville,16,Montérégie,1.0,Montérégie (South Shore),5
+217,Pierre-Laporte,16,Montérégie,1.0,Montérégie (South Shore),5
+241,Richelieu,16,Montérégie,1.0,Montérégie (South Shore),5
+239,Saint-Hyacinthe,16,Montérégie,1.0,Montérégie (South Shore),5
+167,Saint-Jean,16,Montérégie,1.0,Montérégie (South Shore),5
+197,Sanguinet,16,Montérégie,1.0,Montérégie (South Shore),5
+181,Soulanges,16,Montérégie,1.0,Montérégie (South Shore),5
+221,Taillon,16,Montérégie,1.0,Montérégie (South Shore),5
+211,Vachon,16,Montérégie,1.0,Montérégie (South Shore),5
+187,Vaudreuil,16,Montérégie,1.0,Montérégie (South Shore),5
+231,Verchères,16,Montérégie,1.0,Montérégie (South Shore),5
+767,Charlesbourg,03,Capitale-Nationale,1.0,Capitale-Nationale (Québec City),6
+771,Charlevoix–Côte-de-Beaupré,03,Capitale-Nationale,1.0,Capitale-Nationale (Québec City),6
+769,Chauveau,03,Capitale-Nationale,1.0,Capitale-Nationale (Québec City),6
+757,Jean-Lesage,03,Capitale-Nationale,1.0,Capitale-Nationale (Québec City),6
+707,Jean-Talon,03,Capitale-Nationale,1.0,Capitale-Nationale (Québec City),6
+729,La Peltrie,03,Capitale-Nationale,1.0,Capitale-Nationale (Québec City),6
+709,Louis-Hébert,03,Capitale-Nationale,1.0,Capitale-Nationale (Québec City),6
+761,Montmorency,03,Capitale-Nationale,1.0,Capitale-Nationale (Québec City),6
+727,Portneuf,03,Capitale-Nationale,1.0,Capitale-Nationale (Québec City),6
+751,Taschereau,03,Capitale-Nationale,1.0,Capitale-Nationale (Québec City),6
+749,Vanier-Les Rivières,03,Capitale-Nationale,1.0,Capitale-Nationale (Québec City),6
+781,Beauce-Nord,12,Chaudière-Appalaches,1.0,Chaudière-Appalaches,7
+777,Beauce-Sud,12,Chaudière-Appalaches,0.9737,Chaudière-Appalaches,7
+797,Bellechasse,12,Chaudière-Appalaches,1.0,Chaudière-Appalaches,7
+789,Chutes-de-la-Chaudière,12,Chaudière-Appalaches,1.0,Chaudière-Appalaches,7
+799,Côte-du-Sud,12,Chaudière-Appalaches,0.6622,Chaudière-Appalaches,7
+787,Lotbinière-Frontenac,12,Chaudière-Appalaches,1.0,Chaudière-Appalaches,7
+791,Lévis,12,Chaudière-Appalaches,1.0,Chaudière-Appalaches,7
+667,Chapleau,07,Outaouais,1.0,Outaouais,8
+661,Gatineau,07,Outaouais,1.0,Outaouais,8
+651,Hull,07,Outaouais,1.0,Outaouais,8
+669,Papineau,07,Outaouais,1.0,Outaouais,8
+657,Pontiac,07,Outaouais,1.0,Outaouais,8
+157,Brome-Missisquoi,05,Estrie,1.0,Estrie,9
+159,Granby,05,Estrie,1.0,Estrie,9
+117,Mégantic,05,Estrie,0.921,Estrie,9
+127,Orford,05,Estrie,1.0,Estrie,9
+137,Richmond,05,Estrie,1.0,Estrie,9
+119,Saint-François,05,Estrie,1.0,Estrie,9
+121,Sherbrooke,05,Estrie,1.0,Estrie,9
+147,Arthabaska-L'Érable,17,Centre-du-Québec,1.0,Mauricie–Centre-du-Québec,10
+701,Champlain,04,Mauricie,1.0,Mauricie–Centre-du-Québec,10
+141,Drummond–Bois-Francs,17,Centre-du-Québec,1.0,Mauricie–Centre-du-Québec,10
+697,Laviolette–Saint-Maurice,04,Mauricie,1.0,Mauricie–Centre-du-Québec,10
+139,Marie-Lacoste-Gérin-Lajoie,17,Centre-du-Québec,1.0,Mauricie–Centre-du-Québec,10
+693,Maskinongé,04,Mauricie,1.0,Mauricie–Centre-du-Québec,10
+151,Nicolet-Bécancour,17,Centre-du-Québec,1.0,Mauricie–Centre-du-Québec,10
+691,Trois-Rivières,04,Mauricie,1.0,Mauricie–Centre-du-Québec,10
+821,Chicoutimi,02,Saguenay–Lac-Saint-Jean,1.0,Saguenay–Lac-Saint-Jean,11
+819,Dubuc,02,Saguenay–Lac-Saint-Jean,1.0,Saguenay–Lac-Saint-Jean,11
+823,Jonquière,02,Saguenay–Lac-Saint-Jean,1.0,Saguenay–Lac-Saint-Jean,11
+827,Lac-Saint-Jean,02,Saguenay–Lac-Saint-Jean,1.0,Saguenay–Lac-Saint-Jean,11
+829,Roberval,02,Saguenay–Lac-Saint-Jean,1.0,Saguenay–Lac-Saint-Jean,11
+837,Bonaventure,11,Gaspésie–Îles-de-la-Madeleine,1.0,Eastern Quebec,12
+813,Duplessis,09,Côte-Nord,1.0,Eastern Quebec,12
+809,Gaspé,11,Gaspésie–Îles-de-la-Madeleine,1.0,Eastern Quebec,12
+807,Matane-Matapédia-Mitis,01,Bas-Saint-Laurent,1.0,Eastern Quebec,12
+817,René-Lévesque,09,Côte-Nord,1.0,Eastern Quebec,12
+803,Rimouski,01,Bas-Saint-Laurent,1.0,Eastern Quebec,12
+801,Rivière-du-Loup–Témiscouata–Les Basques,01,Bas-Saint-Laurent,1.0,Eastern Quebec,12
+811,Îles-de-la-Madeleine,11,Gaspésie–Îles-de-la-Madeleine,1.0,Eastern Quebec,12
+689,Abitibi-Est,08,Abitibi-Témiscamingue,1.0,Abitibi / Nord-du-Québec,13
+681,Abitibi-Ouest,08,Abitibi-Témiscamingue,1.0,Abitibi / Nord-du-Québec,13
+671,Rouyn-Noranda–Témiscamingue,08,Abitibi-Témiscamingue,1.0,Abitibi / Nord-du-Québec,13
+831,Ungava,10,Nord-du-Québec,1.0,Abitibi / Nord-du-Québec,13

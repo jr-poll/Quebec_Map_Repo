@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quebec 2026 Swing Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+:root{
+  --accent:#6657D1; --ink:#1a1a1a; --muted:#595959; --label:#404040; --line:#CBC5DF;
+  --bg1:#FFFFFF; --bg2:#E9E4F7; --panel:#ffffffd9; --border:#c9c3dd;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{font-family:"Open Sans",system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink);
+  background:linear-gradient(135deg,var(--bg1) 0%,var(--bg2) 100%);background-attachment:fixed;overflow:hidden}
+#app{display:grid;grid-template-rows:auto 1fr;height:100vh;height:100dvh}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:10px 16px 8px;border-bottom:1px solid #ddd8ee}
+.titles{min-width:0;flex:1 1 360px}
+h1{font-size:19px;line-height:1.2;margin:0;font-weight:700}
+#subtitle{font-size:13px;color:var(--muted);margin-top:2px}
+#modes{display:flex;flex-wrap:wrap;border:1px solid var(--border);border-radius:9px;overflow:hidden;background:#fff}
+#modes button{font:inherit;font-size:13px;font-weight:600;border:0;border-right:1px solid var(--border);background:#fff;
+  color:#333;padding:0 12px;min-height:40px;cursor:pointer;display:flex;align-items:center;gap:6px}
+#modes button:last-child{border-right:0}
+#modes button[aria-pressed="true"]{background:var(--accent);color:#fff}
+#modes button:focus-visible,.zbtn:focus-visible,#search:focus-visible,#legendToggle:focus-visible{outline:3px solid #2b1fa3;outline-offset:1px}
+.sw{width:10px;height:10px;border-radius:2px;display:inline-block}
+#searchWrap{position:relative;flex:0 1 240px}
+#search{width:100%;font:inherit;font-size:14px;min-height:40px;padding:0 10px;border:1px solid var(--border);border-radius:8px;background:#fff}
+#results{position:absolute;z-index:30;top:44px;left:0;right:0;background:#fff;border:1px solid var(--border);border-radius:8px;
+  box-shadow:0 6px 20px #0002;list-style:none;margin:0;padding:4px 0;max-height:300px;overflow:auto}
+#results li{padding:7px 10px;font-size:14px;cursor:pointer}
+#results li[aria-selected="true"],#results li:hover{background:#efecfb}
+main{position:relative;display:grid;grid-template-columns:270px 1fr;min-height:0}
+#panel{overflow:auto;padding:12px 14px 16px;border-right:1px solid #ddd8ee;font-size:12px;line-height:1.4;color:var(--label)}
+#panel h2{font-size:12px;margin:12px 0 4px;color:#222}
+#panel h2:first-child{margin-top:0}
+#panel .note{color:var(--muted);font-size:11.5px}
+#panel .src{margin-top:12px;color:var(--muted);font-size:11px}
+#mapwrap{position:relative;min-width:0;min-height:0}
+#map{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none}
+.riding{fill:#FCFBFF;stroke:#CBC5DF;stroke-width:.6px;vector-effect:non-scaling-stroke}
+.riding:hover{fill:#f4f1ff}
+.nei{fill:#ECE9F4;stroke:none}
+.region{fill:none;stroke:#A69ECB;stroke-width:1px;vector-effect:non-scaling-stroke}
+.prov{fill:none;stroke:#8C84B6;stroke-width:1px;vector-effect:non-scaling-stroke}
+.foot{fill:#6657D1;fill-opacity:.07;stroke:#6657D1;stroke-width:1.1px;stroke-dasharray:4 3;vector-effect:non-scaling-stroke;pointer-events:none}
+.hl{fill:none;stroke:var(--accent);stroke-width:2.2px;vector-effect:non-scaling-stroke;pointer-events:none}
+.item{cursor:pointer}
+.item:focus{outline:none}
+.item:focus-visible .hit{stroke:#2b1fa355;stroke-width:14px}
+.hit{stroke:transparent;stroke-width:12px}
+.lab{font-size:11px;fill:#404040;paint-order:stroke;stroke:#fff;stroke-width:3px;stroke-linejoin:round;pointer-events:none}
+.clab{font-size:11.5px;font-weight:700;fill:#5243c4;paint-order:stroke;stroke:#fff;stroke-width:3px;stroke-linejoin:round;cursor:pointer}
+.clab .sub{font-weight:400;fill:#404040;font-size:10.5px}
+#zoom{position:absolute;left:12px;bottom:12px;display:flex;flex-direction:column;background:#fff;border:1px solid #bdbdbd;
+  border-radius:8px;overflow:hidden;box-shadow:0 1px 4px #0001}
+.zbtn{width:40px;height:40px;border:0;border-bottom:1px solid #d6d6d6;background:#fff;font-size:20px;line-height:1;color:#333;cursor:pointer}
+.zbtn:last-child{border-bottom:0;font-size:16px}
+#tip{position:absolute;z-index:40;pointer-events:none;background:#fff;border:1px solid #cfc9e3;border-radius:8px;
+  box-shadow:0 8px 24px #0002;padding:9px 11px;font-size:12.5px;line-height:1.35;max-width:300px;display:none}
+#tip.pinned{pointer-events:auto}
+#tip b{font-size:13.5px}
+#tip .m{color:var(--muted)}
+#tip table{border-collapse:collapse;margin-top:6px;width:100%}
+#tip td,#tip th{padding:2px 4px;text-align:right;font-variant-numeric:tabular-nums}
+#tip th{font-weight:600;color:var(--muted);font-size:11.5px}
+#tip td:first-child,#tip th:first-child{text-align:left}
+#tip .hint{margin-top:6px;color:var(--accent);font-weight:600}
+#legendToggle{display:none}
+@media (max-width:760px){
+  header{padding:8px 10px;gap:8px}
+  h1{font-size:16px}
+  #subtitle{font-size:12px}
+  #modes{width:100%}
+  #modes button{flex:1 1 auto;justify-content:center;padding:0 6px;font-size:12px}
+  #searchWrap{flex:1 1 auto}
+  main{grid-template-columns:1fr}
+  #panel{position:absolute;left:0;right:0;bottom:0;z-index:20;max-height:58%;background:#fff;border-right:0;
+    border-top:1px solid #d4cfe6;border-radius:14px 14px 0 0;box-shadow:0 -6px 20px #0002;transform:translateY(100%);
+    transition:transform .2s}
+  #panel.open{transform:none}
+  #legendToggle{display:block;position:absolute;right:12px;bottom:12px;z-index:21;min-height:40px;padding:0 14px;font:inherit;
+    font-size:14px;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:20px;box-shadow:0 2px 8px #0003}
+  #panel.open ~ #legendToggle{bottom:calc(58% + 10px)}
+}
+</style>
+</head>
+<body>
+<div id="app">
+<header>
+  <div class="titles">
+    <h1>Quebec 2026: shift from 2022 (on 2026 boundaries)</h1>
+    <div id="subtitle" aria-live="polite"></div>
+  </div>
+  <div id="modes" role="group" aria-label="Map view"></div>
+  <div id="searchWrap">
+    <input id="search" type="search" placeholder="Find a riding…" autocomplete="off" aria-label="Find a riding"
+      role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list">
+    <ul id="results" role="listbox" hidden></ul>
+  </div>
+</header>
+<main>
+  <aside id="panel" aria-label="Legend"></aside>
+  <div id="mapwrap">
+    <svg id="map" role="img" aria-label="Map of Quebec ridings with swing arrows"></svg>
+    <div id="zoom">
+      <button class="zbtn" id="zin" aria-label="Zoom in">+</button>
+      <button class="zbtn" id="zout" aria-label="Zoom out">−</button>
+      <button class="zbtn" id="zreset" aria-label="Reset view">×</button>
+    </div>
+    <div id="tip" role="tooltip"></div>
+  </div>
+  <button id="legendToggle" aria-expanded="false" aria-controls="panel">Legend</button>
+</main>
+</div>
+<script id="topo" type="application/json">__TOPO__</script>
+<script id="mapdata" type="application/json">__DATA__</script>
+<script>/*__D3__*/</script>
+<script>/*__TOPOJSON__*/</script>
+<script>
+(function(){
+"use strict";
+const D = JSON.parse(document.getElementById("mapdata").textContent);
+const T = JSON.parse(document.getElementById("topo").textContent);
+const R = new Map(D.ridings.map(r => [r.code, r]));
+const FR = new Map(D.frames.map(f => [f.id, f]));
+const CL = new Map(D.clusters.map(c => [c.id, c]));
+const MINUS = "−";
+const hex = c => "#" + c;
+const strip = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+
+                                                                        
+const ridGeo = topojson.feature(T, T.objects.ridings);
+const neiGeo = topojson.feature(T, T.objects.neighbours);
+const provGeo = topojson.merge(T, T.objects.ridings.geometries);
+const regMesh = topojson.mesh(T, T.objects.ridings, (a, b) => a !== b && a.properties.region !== b.properties.region);
+const provMesh = topojson.mesh(T, T.objects.ridings, (a, b) => a === b);
+const geomByCode = new Map(T.objects.ridings.geometries.map(g => [g.properties.code, g]));
+const featByCode = new Map(ridGeo.features.map(f => [f.properties.code, f]));
+const footGeo = new Map(D.clusters.map(c => [c.id, topojson.merge(T, c.members.map(m => geomByCode.get(m)))]));
+
+const svg = d3.select("#map");
+const defs = svg.append("defs");
+const gMap = svg.append("g");
+const gNei = gMap.append("g"), gRid = gMap.append("g"), gReg = gMap.append("g"), gProv = gMap.append("g"),
+      gFoot = gMap.append("g"), gHl = gMap.append("g");
+const gArrows = svg.append("g").attr("class", "arrows");
+const gLabels = svg.append("g").attr("class", "labels");
+const tip = d3.select("#tip");
+
+                                                        
+const colours = new Set([...Object.values(D.col), D.lossCol, "FFFFFF", "595959", D.accent]);
+                                                                                                                  
+const HEAD = {m: 3, s: 2.2};
+const SMALL_PX = 0.14 * 96 * 1.25;
+colours.forEach(c => Object.entries(HEAD).forEach(([t, z]) => {
+  defs.append("marker").attr("id", t + c).attr("viewBox", "0 0 10 10").attr("refX", 5).attr("refY", 5)
+    .attr("markerWidth", z).attr("markerHeight", z).attr("orient", "auto").attr("markerUnits", "strokeWidth")
+    .append("path").attr("d", "M0,0L10,5L0,10z").attr("fill", hex(c)).attr("fill-opacity", c === "FFFFFF" ? 1 : D.alpha);
+}));
+const headT = L => L < SMALL_PX ? "s" : "m";
+
+let W = 0, H = 0, proj = d3.geoConicConformal().parallels([46, 50]).rotate([70, 0]), path = d3.geoPath(proj);
+let K = {};                                                                 
+let mode = "WINNER", transform = d3.zoomIdentity, pinned = null, hlCode = null;
+const zoom = d3.zoom().scaleExtent([1, 80]).on("zoom", ev => { transform = ev.transform; gMap.attr("transform", transform); schedule(); });
+
+function fit() {
+  const box = document.getElementById("mapwrap").getBoundingClientRect();
+  W = Math.max(200, box.width); H = Math.max(200, box.height);
+  proj.fitExtent([[12, 12], [W - 12, H - 12]], provGeo);
+  svg.attr("viewBox", `0 0 ${W} ${H}`);
+  zoom.extent([[0, 0], [W, H]]).translateExtent([[-40, -40], [W + 40, H + 40]]);
+  gNei.selectAll("path").data(neiGeo.features).join("path").attr("class", "nei").attr("d", path);
+  gRid.selectAll("path").data(ridGeo.features, d => d.properties.code).join("path").attr("class", "riding").attr("d", path)
+    .on("mousemove", (ev, d) => { if (!pinned) showRidingTip(d.properties.code, ev); })
+    .on("mouseleave", () => { if (!pinned) hideTip(); })
+    .on("click", (ev, d) => { ev.stopPropagation(); selectRiding(d.properties.code, true); });
+  gReg.selectAll("path").data([regMesh]).join("path").attr("class", "region").attr("d", path);
+  gProv.selectAll("path").data([provMesh]).join("path").attr("class", "prov").attr("d", path);
+                                                                                                          
+  K = {};
+  const parentCluster = id => D.clusters.filter(c => c.child === CL.get(id).frame);
+  for (const c of D.clusters) {                                          
+    const [a, b] = c.sep_ll.map(p => proj(p));
+    let k = D.sepPx / Math.max(0.01, Math.hypot(a[0] - b[0], a[1] - b[1]));
+    for (const pc of parentCluster(c.id)) k = Math.max(k, K[pc.id] * 1.0001);
+    K[c.id] = Math.max(k, 1.02);
+  }
+  svg.call(zoom.transform, d3.zoomIdentity);
+}
+
+                                                                                                       
+function visibleItems(k) {
+  const out = [];
+  const root = FR.get("F");
+  root.ind.forEach(i => out.push({kind: "r", id: "r" + i.code, code: i.code, ll: i.ll}));
+  const walk = cid => {
+    const c = CL.get(cid);
+    if (k >= K[cid]) {
+      const ch = FR.get(c.child);
+      c.expand.forEach(([t, v]) => {
+        if (t === "r") out.push({kind: "r", id: "r" + v, code: v, ll: ch.ind.find(i => i.code === v).ll});
+        else walk(v);
+      });
+    } else out.push({kind: "c", id: "c" + cid, cid: cid, ll: c.ll});
+  };
+  root.clusters.forEach(walk);
+  return out;
+}
+
+function flagOf(code) {
+  const r = R.get(code);
+  if (mode !== "WINNER" && r.noCand[mode]) return "*";
+  return r.notional ? "**" : "";
+}
+
+function spec(d) {
+  let party, s, isC = d.kind === "c";
+  if (isC) { const c = CL.get(d.cid); party = mode === "WINNER" ? c.top : mode; s = c.swing[party]; }
+  else { const r = R.get(d.code); party = mode === "WINNER" ? r.winner : mode; s = r.sw[party]; }
+  const col = (mode === "WINNER" || s >= 0) ? D.col[party] : D.lossCol;
+  const L = Math.max(D.minPx, Math.abs(s) * D.pxPerPoint);
+  const ang = D.heading[party] + (s < 0 ? 180 : 0);
+  return {party, s, col, L, ang, dot: Math.abs(s) < D.dotBelow, w: isC ? 3.6 : 2.3};
+}
+
+                                                                      
+let raf = 0, lastIds = "";
+function schedule() { if (!raf) raf = requestAnimationFrame(() => { raf = 0; layout(false); }); }
+
+function layout(animateMode) {
+  const k = transform.k;
+  const items = visibleItems(k);
+  items.forEach(d => { const p = proj(d.ll); d.x = transform.applyX(p[0]); d.y = transform.applyY(p[1]); d.sp = spec(d); });
+  const sel = gArrows.selectAll("g.item").data(items, d => d.id);
+  sel.exit().interrupt("fade").transition("fade").duration(150).style("opacity", 0).remove();
+  const ent = sel.enter().append("g").attr("class", d => "item " + (d.kind === "c" ? "cluster" : "rid"))
+    .attr("tabindex", 0).attr("role", "button").style("opacity", 0);
+  ent.append("g").attr("class", "rot");
+  ent.select(".rot").append("line").attr("class", "hit");
+  ent.filter(d => d.kind === "c").select(".rot").append("line").attr("class", "halo");
+  ent.select(".rot").append("line").attr("class", "main");
+  ent.append("circle").attr("class", "dot").attr("r", 2.6);
+  ent.transition("fade").duration(150).style("opacity", 1);
+  ent.on("mouseenter", (ev, d) => { if (!pinned) itemTip(d, ev); })
+     .on("mousemove", (ev, d) => { if (!pinned) itemTip(d, ev); })
+     .on("mouseleave", () => { if (!pinned) hideTip(); })
+     .on("focus", (ev, d) => itemTip(d, null))
+     .on("blur", () => { if (!pinned) hideTip(); })
+     .on("click", (ev, d) => { ev.stopPropagation(); activate(d); })
+     .on("keydown", (ev, d) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); activate(d); } });
+  const all = ent.merge(sel);
+  all.attr("transform", d => `translate(${d.x},${d.y})`)
+     .attr("aria-label", d => d.kind === "c" ? `${CL.get(d.cid).name}: region total, ${CL.get(d.cid).n} ridings`
+                                           : R.get(d.code).name);
+  const rot = all.select(".rot");
+  const setRot = (s) => s.attr("transform", d => `rotate(${-d.sp.ang})`);
+  const setLine = (s, kind) => s.attr("x1", d => -d.sp.L / 2).attr("x2", d => d.sp.L / 2 - HEAD[headT(d.sp.L)] / 2 * (kind === "halo" ? 6.3 : d.sp.w))
+      .attr("y1", 0).attr("y2", 0);
+  const T1 = animateMode ? (s => s.transition("mode").duration(300)) : (s => s.interrupt("mode"));
+  T1(rot).call(setRot);
+  T1(all.select("line.main")).call(s => setLine(s, "main")).attr("stroke", d => hex(d.sp.col))
+    .attr("stroke-opacity", D.alpha).attr("stroke-width", d => d.sp.w);
+  all.select("line.main").attr("marker-end", d => `url(#${headT(d.sp.L)}${d.sp.col})`).attr("stroke-linecap", "round")
+    .style("display", d => d.sp.dot ? "none" : null);
+  T1(all.select("line.halo")).call(s => setLine(s, "halo")).attr("stroke", "#fff").attr("stroke-width", 6.3);
+  all.select("line.halo").attr("marker-end", d => `url(#${headT(d.sp.L)}FFFFFF)`).attr("stroke-linecap", "round")
+    .style("display", d => d.sp.dot ? "none" : null);
+  all.select("line.hit").attr("x1", d => -d.sp.L / 2).attr("x2", d => d.sp.L / 2).attr("y1", 0).attr("y2", 0);
+  all.select("circle.dot").attr("fill", d => hex(d.sp.col)).style("display", d => d.sp.dot ? null : "none");
+  all.filter(d => d.kind === "c").raise();
+                                     
+  const cl = items.filter(d => d.kind === "c");
+  gFoot.selectAll("path").data(cl, d => d.cid).join(
+    e => e.append("path").attr("class", "foot").attr("d", d => path(footGeo.get(d.cid))).style("opacity", 0)
+          .call(e => e.transition().duration(150).style("opacity", 1)),
+    u => u, x => x.transition().duration(150).style("opacity", 0).remove());
+  placeLabels(items);
+  window.__lastItems = items;
+}
+
+                                                                                                                  
+const ctx = document.createElement("canvas").getContext("2d");
+function tw(t, px, bold) { ctx.font = `${bold ? 700 : 400} ${px}px "Open Sans", system-ui, sans-serif`; return ctx.measureText(t).width; }
+function segRect(x1, y1, x2, y2, r) {                                              
+  const inside = (x, y) => x >= r[0] && x <= r[2] && y >= r[1] && y <= r[3];
+  if (inside(x1, y1) || inside(x2, y2)) return true;
+  const e = [[r[0], r[1], r[2], r[1]], [r[2], r[1], r[2], r[3]], [r[2], r[3], r[0], r[3]], [r[0], r[3], r[0], r[1]]];
+  const cr = (ax, ay, bx, by, cx, cy) => (bx - ax) * (cy - ay) - (by - ay) * (cx - ax);
+  return e.some(([a, b, c, d]) => {
+    const d1 = cr(a, b, c, d, x1, y1), d2 = cr(a, b, c, d, x2, y2), d3 = cr(x1, y1, x2, y2, a, b), d4 = cr(x1, y1, x2, y2, c, d);
+    return ((d1 > 0) !== (d2 > 0)) && ((d3 > 0) !== (d4 > 0));
+  });
+}
+function ends(d) {
+  if (d.sp.dot) return [[d.x - 3, d.y], [d.x + 3, d.y]];
+  const t = d.sp.ang * Math.PI / 180, ux = Math.cos(t), uy = -Math.sin(t), h = d.sp.L / 2 + 2;
+  return [[d.x - h * ux, d.y - h * uy], [d.x + h * ux, d.y + h * uy]];
+}
+function placeLabels(items) {
+  const G = 4, segs = items.map(d => ({d, e: ends(d)}));
+  const placed = [], out = [];
+  const onScreen = d => d.x > -20 && d.x < W + 20 && d.y > -20 && d.y < H + 20;
+  const crowd = d => -items.filter(o => o !== d && Math.hypot(o.x - d.x, o.y - d.y) < 50).length;
+  const order = items.filter(onScreen).sort((a, b) => (a.kind === "c" ? 0 : 1) - (b.kind === "c" ? 0 : 1) || crowd(a) - crowd(b));
+  for (const d of order) {
+    let lines, bold = d.kind === "c";
+    if (d.kind === "c") {
+      const c = CL.get(d.cid);
+      lines = [c.name + " ›"];
+      if (mode === "WINNER") lines.push(`${c.top} won ${c.seats[c.top]} of ${c.n}`);
+    } else lines = [R.get(d.code).name + flagOf(d.code)];
+    const lh = 13.5, w = Math.max(...lines.map((t, i) => tw(t, i === 0 ? (bold ? 11.5 : 11) : 10.5, bold && i === 0))) + 2,
+          h = lh * lines.length;
+    const [p, q] = ends(d);
+    const lo = p[1] >= q[1] ? p : q, up = lo === p ? q : p, rt = p[0] >= q[0] ? p : q, lf = rt === p ? q : p;
+    const bx0 = Math.min(p[0], q[0]), bx1 = Math.max(p[0], q[0]), by0 = Math.min(p[1], q[1]), by1 = Math.max(p[1], q[1]);
+    const cand = [
+      [lo[0] - w / 2, lo[1] + G, "middle"], [up[0] - w / 2, up[1] - G - h, "middle"],
+      [bx1 + G, d.y - h / 2, "start"], [bx0 - G - w, d.y - h / 2, "end"],
+      [bx1 + G, by1 + G / 2, "start"], [bx0 - G - w, by1 + G / 2, "end"],
+      [bx1 + G, by0 - G / 2 - h, "start"], [bx0 - G - w, by0 - G / 2 - h, "end"]];
+    let ok = null;
+    for (const [x, y, anchor] of cand) {
+      const r = [x, y, x + w, y + h];
+      if (r[0] < 2 || r[1] < 2 || r[2] > W - 2 || r[3] > H - 2) continue;
+      if (r[0] < 60 && r[3] > H - 140) continue;                   
+      if (placed.some(o => !(r[2] < o[0] || r[0] > o[2] || r[3] < o[1] || r[1] > o[3]))) continue;
+      if (segs.some(s => segRect(s.e[0][0], s.e[0][1], s.e[1][0], s.e[1][1], [r[0] - 1, r[1] - 1, r[2] + 1, r[3] + 1]))) continue;
+      ok = {r, anchor}; break;
+    }
+    if (!ok && d.kind === "c") ok = {r: [lo[0] - w / 2, lo[1] + G, lo[0] + w / 2, lo[1] + G + h], anchor: "middle"};
+    if (!ok) continue;
+    placed.push(ok.r);
+    out.push({d, lines, ...ok});
+  }
+  const sel = gLabels.selectAll("text").data(out, o => o.d.id);
+  sel.exit().remove();
+  const ent = sel.enter().append("text");
+  ent.merge(sel).attr("class", o => o.d.kind === "c" ? "clab" : "lab")
+    .each(function (o) {
+      const t = d3.select(this);
+      const x = o.anchor === "middle" ? (o.r[0] + o.r[2]) / 2 : o.anchor === "start" ? o.r[0] : o.r[2];
+      t.attr("text-anchor", o.anchor);
+      t.selectAll("tspan").data(o.lines).join("tspan").attr("x", x).attr("y", (l, i) => o.r[1] + 10.5 + i * 13.5)
+        .attr("class", (l, i) => i ? "sub" : null).text(l => l);
+    })
+    .on("click", (ev, o) => { ev.stopPropagation(); activate(o.d); });
+  window.__labels = out.map(o => o.d.id);
+}
+
+                                                                        
+const f1 = v => { const r = Math.round(v * 10) / 10; return (r < 0 ? MINUS : "") + Math.abs(r).toFixed(1); };
+const sgn = v => { const r = Math.round(v * 10) / 10; return (r > 0 ? "+" : r < 0 ? MINUS : "") + Math.abs(r).toFixed(1); };
+function table(p22, p26, swg) {
+  return "<table><tr><th>Party</th><th>2022</th><th>2026</th><th>Change</th></tr>" + D.parties.map(p =>
+    `<tr data-party="${p}"><td><span class="sw" style="background:${hex(D.col[p])}"></span> ${p}</td>` +
+    `<td>${f1(p22[p])}%</td><td>${f1(p26[p])}%</td><td>${sgn(swg[p])}</td></tr>`).join("") + "</table>";
+}
+function ridingTipHtml(code) {
+  const r = R.get(code), fl = flagOf(code);
+  const flip = r.flip ? ` · <b style="color:${hex(D.accent)}">flip</b>` : "";
+  let notes = "";
+  if (mode !== "WINNER" && r.noCand[mode]) notes += `<div class="m">* No ${mode} candidate in one of the two years: change measured from 0%.</div>`;
+  if (r.notional) notes += `<div class="m">** Notional 2022 baseline (${r.status}).</div>`;
+  return `<b>${r.name}${fl}</b><div class="m">${r.region}</div>` +
+    `<div>Won by <b style="color:${hex(D.col[r.winner])}">${r.winner}</b> (${r.cand})</div>` +
+    `<div class="m">Notional 2022 winner: ${r.w22}${flip}</div>` + table(r.p22, r.p26, r.sw) + notes;
+}
+function clusterTipHtml(cid) {
+  const c = CL.get(cid);
+  const seats = D.parties.filter(p => c.seats[p]).map(p => `${p} ${c.seats[p]}`).join(" · ");
+  return `<b>${c.name}</b><div class="m">${c.n} ridings · 2026 seats: ${seats}</div>` +
+    `<div class="m">Region total (summed votes)</div>` + table(c.share22, c.share26, c.swing) +
+    `<div class="hint">Click to zoom in</div>`;
+}
+function placeTip(x, y) {
+  const n = tip.node(), bw = n.offsetWidth, bh = n.offsetHeight;
+  let tx = x + 14, ty = y + 14;
+  if (tx + bw > W - 6) tx = x - bw - 14;
+  if (ty + bh > H - 6) ty = Math.max(6, H - bh - 6);
+  tip.style("left", Math.max(6, tx) + "px").style("top", Math.max(6, ty) + "px");
+}
+function showRidingTip(code, ev) {
+  tip.html(ridingTipHtml(code)).style("display", "block").attr("data-code", code);
+  highlight(code);
+  const [x, y] = ev ? d3.pointer(ev, document.getElementById("mapwrap")) : anchorXY(code);
+  placeTip(x, y);
+}
+function anchorXY(code) {
+  const it = (window.__lastItems || []).find(d => d.kind === "r" && d.code === code);
+  const p = it ? [it.x, it.y] : (() => { const q = proj(R.get(code).ll); return [transform.applyX(q[0]), transform.applyY(q[1])]; })();
+  return p;
+}
+function itemTip(d, ev) {
+  if (d.kind === "r") return showRidingTip(d.code, ev);
+  tip.html(clusterTipHtml(d.cid)).style("display", "block").attr("data-code", null);
+  highlight(null);
+  const [x, y] = ev ? d3.pointer(ev, document.getElementById("mapwrap")) : [d.x, d.y];
+  placeTip(x, y);
+}
+function hideTip() { tip.style("display", "none").classed("pinned", false); highlight(null); }
+function highlight(code) {
+  hlCode = code;
+  gHl.selectAll("path").data(code ? [featByCode.get(code)] : []).join("path").attr("class", "hl").attr("d", path);
+}
+
+                                                                          
+function kNeeded(code) {                                                      
+  let k = 1;
+  const walk = (cid) => {
+    const c = CL.get(cid);
+    if (!c.members.includes(code)) return false;
+    k = Math.max(k, K[cid] * 1.1);
+    for (const [t, v] of c.expand) if (t === "c" && walk(v)) return true;
+    return true;
+  };
+  FR.get("F").clusters.forEach(walk);
+  return Math.min(80, k);
+}
+function zoomTo(cx, cy, k, ms = 750) {
+  k = Math.max(1, Math.min(80, k));
+  const t = d3.zoomIdentity.translate(W / 2 - k * cx, H / 2 - k * cy).scale(k);
+  return new Promise(res => svg.transition().duration(ms).call(zoom.transform, t).on("end interrupt", () => { layout(false); res(); }));
+}
+function zoomToCluster(cid) {
+  const c = CL.get(cid), b = path.bounds(footGeo.get(cid));
+  const fitK = 0.85 * Math.min(W / (b[1][0] - b[0][0]), H / (b[1][1] - b[0][1]));
+  return zoomTo((b[0][0] + b[1][0]) / 2, (b[0][1] + b[1][1]) / 2, Math.max(K[cid] * 1.1, Math.min(fitK, K[cid] * 1.1)));
+}
+function zoomToFrame(id) {
+  if (id === "F") return zoomTo(W / 2, H / 2, 1);
+  const f = FR.get(id);
+  const a = proj(f.bbox[0]), b = proj(f.bbox[1]);
+  const x0 = Math.min(a[0], b[0]), x1 = Math.max(a[0], b[0]), y0 = Math.min(a[1], b[1]), y1 = Math.max(a[1], b[1]);
+  let k = 0.95 * Math.min(W / (x1 - x0), H / (y1 - y0));
+  for (const c of D.clusters) if (c.child === id) k = Math.max(k, K[c.id] * 1.1);
+  return zoomTo((x0 + x1) / 2, (y0 + y1) / 2, k);
+}
+function zoomToRiding(code) {
+  const p = proj(R.get(code).ll);
+  const b = path.bounds(featByCode.get(code));
+  const fitK = 0.5 * Math.min(W / (b[1][0] - b[0][0] + 1), H / (b[1][1] - b[0][1] + 1));
+  return zoomTo(p[0], p[1], Math.max(kNeeded(code), Math.min(fitK, 12), transform.k));
+}
+function selectRiding(code, pin) {
+  return zoomToRiding(code).then(() => {
+    showRidingTip(code, null);
+    if (pin) { pinned = code; tip.classed("pinned", true); }
+  });
+}
+function activate(d) {
+  if (d.kind === "c") { pinned = null; hideTip(); zoomToCluster(d.cid); }
+  else selectRiding(d.code, true);
+}
+svg.on("click", () => { pinned = null; hideTip(); });
+document.addEventListener("keydown", ev => { if (ev.key === "Escape") { pinned = null; hideTip(); closeResults(); } });
+d3.select("#zin").on("click", () => svg.transition().duration(300).call(zoom.scaleBy, 2));
+d3.select("#zout").on("click", () => svg.transition().duration(300).call(zoom.scaleBy, 0.5));
+d3.select("#zreset").on("click", () => { pinned = null; hideTip(); svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity); });
+
+                                                                                    
+const modeLabel = m => m === "WINNER" ? "2026 winner" : m;
+const modesEl = d3.select("#modes");
+D.modes.forEach(m => {
+  const b = modesEl.append("button").attr("type", "button").attr("data-mode", m).attr("aria-pressed", "false")
+    .on("click", () => setMode(m));
+  if (m !== "WINNER") b.append("span").attr("class", "sw").style("background", hex(D.col[m])).attr("aria-hidden", "true");
+  b.append("span").text(modeLabel(m));
+});
+function subtitle() {
+  return mode === "WINNER" ? "2026 winner's change: one arrow per riding, in the winner's colour, sized by the winner's own change in vote share"
+    : `${D.name[mode] === mode ? mode : D.name[mode] + " (" + mode + ")"}: change in vote share, 2022 → 2026 (grey = loss)`;
+}
+function arrowSvg(x, y, ang, L, col, w, halo) {
+  const t = ang * Math.PI / 180, ux = Math.cos(t), uy = -Math.sin(t);
+  const t2 = headT(L), z = HEAD[t2] / 2;
+  const x2 = x + ux * (L - z * w), y2 = y + uy * (L - z * w);
+  const h = halo ? `<line x1="${x}" y1="${y}" x2="${x + ux * (L - z * 6.3)}" y2="${y + uy * (L - z * 6.3)}" stroke="#fff" stroke-width="6.3" stroke-linecap="round" marker-end="url(#${t2}FFFFFF)"/>` : "";
+  return h + `<line x1="${x}" y1="${y}" x2="${x2}" y2="${y2}" stroke="${hex(col)}" stroke-opacity="${D.alpha}" stroke-width="${w}" stroke-linecap="round" marker-end="url(#${t2}${col})"/>`;
+}
+function legend() {
+  let fan = "";
+  const L = 34;
+  if (mode === "WINNER") {
+    const ox = 120, oy = 62;
+    fan = D.seatParties.map(p => {
+      const t = D.heading[p] * Math.PI / 180;
+      return arrowSvg(ox, oy, D.heading[p], L, D.col[p], 2.3) +
+        `<text x="${ox + Math.cos(t) * (L + 12)}" y="${oy - Math.sin(t) * (L + 10) + 4}" text-anchor="middle" font-size="11" font-weight="700" fill="${hex(D.col[p])}">${p}</text>`;
+    }).join("");
+    fan = `<svg width="240" height="78" role="img" aria-label="Arrow directions by party">${fan}</svg>
+      <div class="note">Direction = winning party. Arrows pointing down: the winner's own share fell.</div>`;
+  } else {
+    const ox = 110, oy = 46, h = D.heading[mode];
+    fan = `<svg width="240" height="100" role="img" aria-label="Gain and loss directions">${arrowSvg(ox, oy, h, L, D.col[mode], 2.3)}${arrowSvg(ox, oy, h + 180, L, D.lossCol, 2.3)}
+      <text x="${ox + Math.cos(h * Math.PI / 180) * (L + 8)}" y="${oy - Math.sin(h * Math.PI / 180) * (L + 8) - 2}" font-size="12" font-weight="700" fill="${hex(D.col[mode])}" text-anchor="middle">Gain</text>
+      <text x="${ox - Math.cos(h * Math.PI / 180) * (L + 8)}" y="${oy + Math.sin(h * Math.PI / 180) * (L + 8) + 12}" font-size="12" font-weight="700" fill="#595959" text-anchor="middle">Loss</text></svg>`;
+  }
+  const keys = [5, 15, 30].map((v, i) => {
+    const Lv = Math.max(D.minPx, v * D.pxPerPoint), y = 14 + i * 20;
+    return arrowSvg(6, y, 0, Lv, "595959", 2.3) + `<text x="${6 + 30 * D.pxPerPoint + 12}" y="${y + 4}" font-size="11.5" fill="#404040">+${v} pts</text>`;
+  }).join("");
+  const clus = `<svg width="240" height="26">${arrowSvg(8, 13, 0, 34, D.accent, 3.6, true)}<text x="52" y="17" font-size="11.5" fill="#404040">Region total – click to zoom in</text></svg>`;
+  const notes = [];
+  if (mode !== "WINNER") {
+    const miss = D.ridings.filter(r => r.noCand[mode]).map(r => r.name);
+    if (miss.length) notes.push(`* No ${mode} candidate in one of the two years in ${miss.join(", ")}: change measured from 0%.`);
+  }
+  notes.push("** Notional 2022 baseline (new or substantially redrawn riding): " +
+    D.ridings.filter(r => r.notional).map(r => r.name).join(", ") + ".");
+  if (mode === "WINNER") notes.push("Arrow reversed – winner's own share fell: " + D.reversed.join(", ") + ".");
+  d3.select("#panel").html(
+    `<h2>${mode === "WINNER" ? "Direction = party" : "Gain or loss"}</h2>${fan}
+     <h2>Arrow length = size of change</h2>
+     <svg width="240" height="64" role="img" aria-label="Length key">${keys}</svg>
+     <div class="note">True scale: ${D.pxPerPoint.toFixed(2)} px per percentage point at every zoom level.</div>
+     <h2>Where ridings are too dense</h2>${clus}
+     <div class="note">A thicker haloed arrow gives the summed-vote change for a group of ridings; zoom in to split it.</div>
+     <h2>Notes</h2>${notes.map(n => `<div class="note" style="margin-bottom:4px">${n}</div>`).join("")}
+     <div class="src">${D.source}</div>`);
+  const pd = document.querySelector("#panel");                                                           
+  pd.querySelectorAll("svg").forEach(s => s.setAttribute("overflow", "visible"));
+}
+function setMode(m, push = true) {
+  if (!D.modes.includes(m)) return;
+  mode = m;
+  modesEl.selectAll("button").attr("aria-pressed", function () { return this.dataset.mode === m ? "true" : "false"; });
+  d3.select("#subtitle").text(subtitle());
+  legend();
+  if (push) history.replaceState(null, "", "#mode=" + m);
+  if (W) layout(true);
+  if (pinned) showRidingTip(pinned, null);
+}
+
+                                                                      
+const sIn = document.getElementById("search"), sRes = document.getElementById("results");
+let hits = [], sel = -1;
+function closeResults() { sRes.hidden = true; sIn.setAttribute("aria-expanded", "false"); }
+function renderResults() {
+  sRes.innerHTML = hits.map((r, i) => `<li role="option" id="opt${i}" data-code="${r.code}" aria-selected="${i === sel}">${r.name}</li>`).join("");
+  sRes.hidden = !hits.length; sIn.setAttribute("aria-expanded", hits.length ? "true" : "false");
+  if (sel >= 0) sIn.setAttribute("aria-activedescendant", "opt" + sel); else sIn.removeAttribute("aria-activedescendant");
+}
+function choose(code) { closeResults(); sIn.value = R.get(code).name; pinned = null; selectRiding(code, true); }
+sIn.addEventListener("input", () => {
+  const q = strip(sIn.value.trim());
+  hits = q ? D.ridings.filter(r => strip(r.name).includes(q))
+    .sort((a, b) => strip(a.name).indexOf(q) - strip(b.name).indexOf(q) || a.name.localeCompare(b.name, "fr")).slice(0, 8) : [];
+  sel = hits.length ? 0 : -1; renderResults();
+});
+sIn.addEventListener("keydown", ev => {
+  if (ev.key === "ArrowDown") { sel = Math.min(hits.length - 1, sel + 1); renderResults(); ev.preventDefault(); }
+  else if (ev.key === "ArrowUp") { sel = Math.max(0, sel - 1); renderResults(); ev.preventDefault(); }
+  else if (ev.key === "Enter" && sel >= 0) { choose(hits[sel].code); ev.preventDefault(); }
+});
+sRes.addEventListener("mousedown", ev => { const li = ev.target.closest("li"); if (li) { ev.preventDefault(); choose(+li.dataset.code); } });
+sIn.addEventListener("blur", () => setTimeout(closeResults, 120));
+
+                                                                                   
+const tg = document.getElementById("legendToggle"), panel = document.getElementById("panel");
+tg.addEventListener("click", () => { const o = panel.classList.toggle("open"); tg.setAttribute("aria-expanded", o); tg.textContent = o ? "Close legend" : "Legend"; });
+
+                                                                    
+const hm = /mode=([A-Z]+)/.exec(location.hash);
+setMode(hm && D.modes.includes(hm[1]) ? hm[1] : "WINNER", false);
+svg.call(zoom);
+fit();
+layout(false);
+let rT = 0;
+window.addEventListener("resize", () => { clearTimeout(rT); rT = setTimeout(() => { fit(); layout(false); }, 150); });
+window.addEventListener("hashchange", () => { const m = /mode=([A-Z]+)/.exec(location.hash); if (m && m[1] !== mode) setMode(m[1], false); });
+
+                                                                                                                 
+window.__map = {
+  setMode: m => { setMode(m); return new Promise(r => setTimeout(r, 350)); },
+  zoomToFrame, zoomToRiding,
+  visibleArrowCount: () => visibleItems(transform.k).length,
+  visibleRidingCodes: () => visibleItems(transform.k).filter(d => d.kind === "r").map(d => d.code).sort((a, b) => a - b),
+  setZoom: k => { svg.interrupt(); svg.call(zoom.scaleTo, k); layout(false); },
+  frameCount: id => { const f = FR.get(id); return f.ind.length + f.clusters.length; },
+  itemXY: code => { const it = (window.__lastItems || []).find(d => d.kind === "r" && d.code === code); return it ? [it.x, it.y] : null; },
+  kSplit: () => ({...K}), zoomK: () => transform.k, labelled: () => (window.__labels || []).slice(),
+};
+})();
+</script>
+</body>
+</html>

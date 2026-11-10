@@ -1,0 +1,16 @@
+
+
+
+shared_breakouts:
+
+
+  - [F.1.1.3, F.1.1.4]
+frames:
+  F:            {name: "Quebec", short: "Quebec", area: "across Quebec"}
+  F.1:          {name: "Southern Quebec", short: "Southern Quebec", area: "in Southern Quebec"}
+  F.1.1:        {name: "St. Lawrence Valley (Outaouais to Beauce)", short: "St. Lawrence Valley", area: "in the St. Lawrence Valley"}
+  F.1.1.1:      {name: "Greater Montréal", short: "Greater Montréal", area: "in Greater Montréal"}
+  F.1.1.1.1:    {name: "Montréal Island, Laval and Longueuil", short: "Montréal, Laval, Longueuil", area: "on Montréal Island, Laval and Longueuil"}
+  F.1.1.2:      {name: "Québec City and Lévis", short: "Québec City", area: "in Québec City and Lévis"}
+  F.1.1.3:      {name: "Eastern Townships (Granby and Sherbrooke)", short: "Eastern Townships", area: "in the Eastern Townships"}
+  F.1.2:        {name: "Saguenay", short: "Saguenay", area: "in Saguenay"}

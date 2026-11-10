@@ -1,0 +1,881 @@
+code,riding,party_num,party_abbr,party,candidate,votes,pct
+648,Abitibi-Est,27,C.A.Q.-E.F.L.,CAQ,Pierre Dufour,9762,47.17
+648,Abitibi-Est,6,P.L.Q./Q.L.P.,PLQ,Jean-Maurice Matte,3044,14.71
+648,Abitibi-Est,40,Q.S.,QS,Benjamin Gingras,2838,13.71
+648,Abitibi-Est,8,P.Q.,PQ,Jacline Rouleau,2565,12.39
+648,Abitibi-Est,22,P.C.Q-E.E.D.,PCQ,Maxym Perron-Tellier,2486,12.01
+642,Abitibi-Ouest,27,C.A.Q.-E.F.L.,CAQ,Suzanne Blais,10399,46.75
+642,Abitibi-Ouest,8,P.Q.,PQ,Samuel Doré,4619,20.76
+642,Abitibi-Ouest,40,Q.S.,QS,Alexis Lapierre,3623,16.29
+642,Abitibi-Ouest,22,P.C.Q-E.E.D.,PCQ,François Vigneault,2293,10.31
+642,Abitibi-Ouest,6,P.L.Q./Q.L.P.,PLQ,Guy Bourgeois,1153,5.18
+642,Abitibi-Ouest,99209,U.N.,OTH,Jonathan Blanchette,159,0.71
+338,Acadie,6,P.L.Q./Q.L.P.,PLQ,André A. Morin,10981,42.26
+338,Acadie,40,Q.S.,QS,Elyse Lévesque,4468,17.2
+338,Acadie,27,C.A.Q.-E.F.L.,CAQ,Rosmeri Otoya Celis,4446,17.11
+338,Acadie,22,P.C.Q-E.E.D.,PCQ,Stéphanie Gentile,2955,11.37
+338,Acadie,8,P.Q.,PQ,Véronique Lecours,2565,9.87
+338,Acadie,10,P.V.Q./G.P.Q.,OTH,Roula Al Nseir,569,2.19
+366,Anjou-Louis-Riel,27,C.A.Q.-E.F.L.,CAQ,Karine Boivin Roy,9376,35.56
+366,Anjou-Louis-Riel,6,P.L.Q./Q.L.P.,PLQ,Chantal Gagnon,8045,30.52
+366,Anjou-Louis-Riel,40,Q.S.,QS,Laurence Pageau,3893,14.77
+366,Anjou-Louis-Riel,8,P.Q.,PQ,Yastene Adda,2910,11.04
+366,Anjou-Louis-Riel,22,P.C.Q-E.E.D.,PCQ,Genevieve Deneault,1887,7.16
+366,Anjou-Louis-Riel,99237,C.Q.,OTH,Claude Gélinas,203,0.77
+366,Anjou-Louis-Riel,0,Ind,OTH,Katy LeRougetel,49,0.19
+520,Argenteuil,27,C.A.Q.-E.F.L.,CAQ,Agnès Grondin,14725,45.1
+520,Argenteuil,8,P.Q.,PQ,François Girard,5291,16.21
+520,Argenteuil,22,P.C.Q-E.E.D.,PCQ,Karim Elayoubi,4807,14.72
+520,Argenteuil,40,Q.S.,QS,Marcel Lachaine,3523,10.79
+520,Argenteuil,6,P.L.Q./Q.L.P.,PLQ,Philippe LeBel,3325,10.18
+520,Argenteuil,99263,P.C.Q./C.P.Q,OTH,Jean Lalonde,436,1.34
+520,Argenteuil,10,P.V.Q./G.P.Q.,OTH,Luis Alvarez,429,1.31
+520,Argenteuil,99286,D.D.,OTH,Marie-Eve Milot,113,0.35
+144,Arthabaska,27,C.A.Q.-E.F.L.,CAQ,Eric Lefebvre,23447,51.75
+144,Arthabaska,22,P.C.Q-E.E.D.,PCQ,Tarek Henoud,11187,24.69
+144,Arthabaska,8,P.Q.,PQ,Mario Beauchesne,4538,10.02
+144,Arthabaska,40,Q.S.,QS,Pascale Fortin,4179,9.22
+144,Arthabaska,6,P.L.Q./Q.L.P.,PLQ,Luciana Arantes,1702,3.76
+144,Arthabaska,99237,C.Q.,OTH,Trystan Martel,256,0.57
+806,Beauce-Nord,27,C.A.Q.-E.F.L.,CAQ,Luc Provençal,14590,43.43
+806,Beauce-Nord,22,P.C.Q-E.E.D.,PCQ,Olivier Dumais,14388,42.83
+806,Beauce-Nord,8,P.Q.,PQ,Paméla Lavoie-Savard,1994,5.94
+806,Beauce-Nord,40,Q.S.,QS,François Jacques-Côté,1522,4.53
+806,Beauce-Nord,6,P.L.Q./Q.L.P.,PLQ,Clermont Rouleau,951,2.83
+806,Beauce-Nord,99237,C.Q.,OTH,Gwendoline Mathieu-Poulin,146,0.43
+802,Beauce-Sud,27,C.A.Q.-E.F.L.,CAQ,Samuel Poulin,16615,44.55
+802,Beauce-Sud,22,P.C.Q-E.E.D.,PCQ,Jonathan Poulin,16187,43.4
+802,Beauce-Sud,40,Q.S.,QS,Olivier Fecteau,1623,4.35
+802,Beauce-Sud,8,P.Q.,PQ,Jean-François Major,1505,4.04
+802,Beauce-Sud,6,P.L.Q./Q.L.P.,PLQ,Antoine Poulin,1057,2.83
+802,Beauce-Sud,37,P51,OTH,Hans Mercier,306,0.82
+218,Beauharnois,27,C.A.Q.-E.F.L.,CAQ,Claude Reid,17882,53.78
+218,Beauharnois,8,P.Q.,PQ,Claudine Desforges,5640,16.96
+218,Beauharnois,40,Q.S.,QS,Emilie Poirier,4299,12.93
+218,Beauharnois,22,P.C.Q-E.E.D.,PCQ,Chantal Dauphinais,3112,9.36
+218,Beauharnois,6,P.L.Q./Q.L.P.,PLQ,Marc Blanchard,1940,5.83
+218,Beauharnois,10,P.V.Q./G.P.Q.,OTH,Hélène Savard,243,0.73
+218,Beauharnois,99237,C.Q.,OTH,Mathieu Taillefer,136,0.41
+822,Bellechasse,27,C.A.Q.-E.F.L.,CAQ,Stéphanie Lachance,15065,45.74
+822,Bellechasse,22,P.C.Q-E.E.D.,PCQ,Michel Tardif,11612,35.26
+822,Bellechasse,8,P.Q.,PQ,Jean-Daniel Fontaine,2908,8.83
+822,Bellechasse,40,Q.S.,QS,Jérôme D'Auteuil Sirois,1988,6.04
+822,Bellechasse,6,P.L.Q./Q.L.P.,PLQ,François Bégin,1360,4.13
+566,Berthier,27,C.A.Q.-E.F.L.,CAQ,Caroline Proulx,21256,50.97
+566,Berthier,8,P.Q.,PQ,Julie Boucher,8682,20.82
+566,Berthier,40,Q.S.,QS,Amélie Drainville,5877,14.09
+566,Berthier,22,P.C.Q-E.E.D.,PCQ,Benoit Primeau,4585,10.99
+566,Berthier,6,P.L.Q./Q.L.P.,PLQ,Hassan Abdallah,1064,2.55
+566,Berthier,99237,C.Q.,OTH,Claire Aubin,242,0.58
+588,Bertrand,27,C.A.Q.-E.F.L.,CAQ,France-Élaine Duranceau,15927,45.26
+588,Bertrand,8,P.Q.,PQ,Guillaume Freire,7259,20.63
+588,Bertrand,40,Q.S.,QS,Julie Francoeur,5682,16.15
+588,Bertrand,22,P.C.Q-E.E.D.,PCQ,Philippe Meloni,3444,9.79
+588,Bertrand,6,P.L.Q./Q.L.P.,PLQ,André Nadeau,2115,6.01
+588,Bertrand,10,P.V.Q./G.P.Q.,OTH,Karine Steinberger,448,1.27
+588,Bertrand,99281,P.H.Q.,OTH,Marie-Eve Ouellette,162,0.46
+588,Bertrand,99237,C.Q.,OTH,Samuel Fortin,151,0.43
+536,Blainville,27,C.A.Q.-E.F.L.,CAQ,Mario Laframboise,21149,49.45
+536,Blainville,8,P.Q.,PQ,Frédéric Labelle,6600,15.43
+536,Blainville,40,Q.S.,QS,Éric Michaud,5987,14.0
+536,Blainville,6,P.L.Q./Q.L.P.,PLQ,Alexandre Mercho,4718,11.03
+536,Blainville,22,P.C.Q-E.E.D.,PCQ,Grace Daou,4175,9.76
+536,Blainville,99286,D.D.,OTH,Marie-France Hanna,140,0.33
+850,Bonaventure,27,C.A.Q.-E.F.L.,CAQ,Catherine Blouin,9919,44.45
+850,Bonaventure,8,P.Q.,PQ,Alexis Deschênes,6708,30.06
+850,Bonaventure,40,Q.S.,QS,Catherine Cyr Wright,2417,10.83
+850,Bonaventure,6,P.L.Q./Q.L.P.,PLQ,Christian Cyr,1911,8.56
+850,Bonaventure,22,P.C.Q-E.E.D.,PCQ,François Therrien,1219,5.46
+850,Bonaventure,99275,U.F.F.,OTH,Anne-Marie Lauzon,82,0.37
+850,Bonaventure,99237,C.Q.,OTH,Jocelyn Rioux,57,0.26
+258,Borduas,27,C.A.Q.-E.F.L.,CAQ,Simon Jolin-Barrette,22760,51.23
+258,Borduas,8,P.Q.,PQ,Paule Laprise,8646,19.46
+258,Borduas,40,Q.S.,QS,Benoît Landry,6726,15.14
+258,Borduas,22,P.C.Q-E.E.D.,PCQ,Jean-Félix Racicot,3357,7.56
+258,Borduas,6,P.L.Q./Q.L.P.,PLQ,Eribert Charles,2326,5.24
+258,Borduas,10,P.V.Q./G.P.Q.,OTH,Thomas Thibault-Vincent,463,1.04
+258,Borduas,99237,C.Q.,OTH,Marcel Thibodeau,93,0.21
+258,Borduas,99286,D.D.,OTH,Stephen Gauthier,58,0.13
+360,Bourassa-Sauvé,6,P.L.Q./Q.L.P.,PLQ,Madwa-Nika Cadet,9704,40.13
+360,Bourassa-Sauvé,27,C.A.Q.-E.F.L.,CAQ,Absa Diallo,6049,25.01
+360,Bourassa-Sauvé,40,Q.S.,QS,Ricardo Gustave,3737,15.45
+360,Bourassa-Sauvé,22,P.C.Q-E.E.D.,PCQ,Carmel-Antoine Bessard,2161,8.94
+360,Bourassa-Sauvé,8,P.Q.,PQ,Zacharie Robitaille,2101,8.69
+360,Bourassa-Sauvé,10,P.V.Q./G.P.Q.,OTH,Omar Ahmed,266,1.1
+360,Bourassa-Sauvé,0,Ind,OTH,Smaille Toussaint,94,0.39
+360,Bourassa-Sauvé,99236,P.A.P.E.,OTH,Shawn Lalande McLean,70,0.29
+204,Brome-Missisquoi,27,C.A.Q.-E.F.L.,CAQ,Isabelle Charest,20576,45.87
+204,Brome-Missisquoi,40,Q.S.,QS,Alexandre Legault,7138,15.91
+204,Brome-Missisquoi,8,P.Q.,PQ,Guillaume Paquet,5359,11.95
+204,Brome-Missisquoi,6,P.L.Q./Q.L.P.,PLQ,Claude Vadeboncoeur,5344,11.91
+204,Brome-Missisquoi,22,P.C.Q-E.E.D.,PCQ,Stéphanie Prévost,4875,10.87
+204,Brome-Missisquoi,99263,P.C.Q./C.P.Q,OTH,Lynn Moore,642,1.43
+204,Brome-Missisquoi,10,P.V.Q./G.P.Q.,OTH,Caitlin Moynan,487,1.09
+204,Brome-Missisquoi,0,Ind,OTH,Sébastien Houle,209,0.47
+204,Brome-Missisquoi,99237,C.Q.,OTH,Tommy Quirion-Bouchard,121,0.27
+204,Brome-Missisquoi,99286,D.D.,OTH,Pierre Fontaine,105,0.23
+370,Camille-Laurin,8,P.Q.,PQ,Paul St-Pierre Plamondon,11959,41.68
+370,Camille-Laurin,27,C.A.Q.-E.F.L.,CAQ,Richard Campeau,9165,31.94
+370,Camille-Laurin,6,P.L.Q./Q.L.P.,PLQ,Christina Eyangos,4724,16.47
+370,Camille-Laurin,22,P.C.Q-E.E.D.,PCQ,Christos Karteris,1869,6.51
+370,Camille-Laurin,10,P.V.Q./G.P.Q.,OTH,Bourama Keita,641,2.23
+370,Camille-Laurin,99237,C.Q.,OTH,Jean-Pierre Émond,241,0.84
+370,Camille-Laurin,99286,D.D.,OTH,Grace St-Gelais,49,0.17
+370,Camille-Laurin,29,E.A.,OTH,Charles Mc Nicoll,42,0.15
+238,Chambly,27,C.A.Q.-E.F.L.,CAQ,Jean-François Roberge,18500,48.47
+238,Chambly,8,P.Q.,PQ,Marie-Laurence Desgagné,6831,17.9
+238,Chambly,40,Q.S.,QS,Vincent Michaux-St-Louis,6250,16.37
+238,Chambly,22,P.C.Q-E.E.D.,PCQ,Daniel Desnoyers,3181,8.33
+238,Chambly,6,P.L.Q./Q.L.P.,PLQ,Lina Yunes,2997,7.85
+238,Chambly,99237,C.Q.,OTH,Sanae Chahad,341,0.89
+238,Chambly,99286,D.D.,OTH,Caroline Boisvert,70,0.18
+676,Champlain,27,C.A.Q.-E.F.L.,CAQ,Sonia LeBel,23513,55.89
+676,Champlain,22,P.C.Q-E.E.D.,PCQ,Steve Massicotte,7383,17.55
+676,Champlain,8,P.Q.,PQ,Alexandre Litalien,5065,12.04
+676,Champlain,40,Q.S.,QS,Marjolaine Trottier,3775,8.97
+676,Champlain,6,P.L.Q./Q.L.P.,PLQ,Jérémy Leblanc,2138,5.08
+676,Champlain,99275,U.F.F.,OTH,Bianca Nancy Pinel,194,0.46
+620,Chapleau,27,C.A.Q.-E.F.L.,CAQ,Mathieu Lévesque,16363,52.3
+620,Chapleau,6,P.L.Q./Q.L.P.,PLQ,Assumpta Ndengeyingoma,4259,13.61
+620,Chapleau,40,Q.S.,QS,Sabrina Labrecque-Boivin,4129,13.2
+620,Chapleau,22,P.C.Q-E.E.D.,PCQ,Matthieu Kadri,3161,10.1
+620,Chapleau,8,P.Q.,PQ,Marisa Gutierrez,3033,9.7
+620,Chapleau,99237,C.Q.,OTH,Anne-Marie Meunier,267,0.85
+620,Chapleau,7,P.M.L.Q.,OTH,Pierre Soublière,72,0.23
+748,Charlesbourg,27,C.A.Q.-E.F.L.,CAQ,Jonatan Julien,18921,45.0
+748,Charlesbourg,22,P.C.Q-E.E.D.,PCQ,Jean Domingue,8564,20.37
+748,Charlesbourg,8,P.Q.,PQ,Priscilla Corbeil,5967,14.19
+748,Charlesbourg,40,Q.S.,QS,Ève Duhaime,5486,13.05
+748,Charlesbourg,6,P.L.Q./Q.L.P.,PLQ,Mahamadou Sissoko,2518,5.99
+748,Charlesbourg,10,P.V.Q./G.P.Q.,OTH,Odevie Essaidi,348,0.83
+748,Charlesbourg,37,P51,OTH,David Cantin,163,0.39
+748,Charlesbourg,99286,D.D.,OTH,Daniel Pelletier,75,0.18
+760,Charlevoix-Côte-de-Beaupré,27,C.A.Q.-E.F.L.,CAQ,Kariane Bourassa,17979,48.17
+760,Charlevoix-Côte-de-Beaupré,22,P.C.Q-E.E.D.,PCQ,Odré Lacombe,6763,18.12
+760,Charlevoix-Côte-de-Beaupré,8,P.Q.,PQ,Lucien Rodrigue,6041,16.19
+760,Charlevoix-Côte-de-Beaupré,40,Q.S.,QS,Myriam Fortin,4677,12.53
+760,Charlevoix-Côte-de-Beaupré,6,P.L.Q./Q.L.P.,PLQ,Michel Bureau,1756,4.7
+760,Charlevoix-Côte-de-Beaupré,99286,D.D.,OTH,Stefany Tremblay,106,0.28
+226,Châteauguay,27,C.A.Q.-E.F.L.,CAQ,Marie-Belle Gendron,13038,39.12
+226,Châteauguay,6,P.L.Q./Q.L.P.,PLQ,Jean-François Primeau,8260,24.78
+226,Châteauguay,40,Q.S.,QS,Martin Bécotte,4261,12.78
+226,Châteauguay,8,P.Q.,PQ,Marianne Lafleur,3947,11.84
+226,Châteauguay,22,P.C.Q-E.E.D.,PCQ,Patric Viau,3363,10.09
+226,Châteauguay,10,P.V.Q./G.P.Q.,OTH,Stephanie Stevenson,463,1.39
+754,Chauveau,27,C.A.Q.-E.F.L.,CAQ,Sylvain Lévesque,20292,46.84
+754,Chauveau,22,P.C.Q-E.E.D.,PCQ,Éric Duhaime,13794,31.84
+754,Chauveau,40,Q.S.,QS,Jimena Ruiz Aragon,3816,8.81
+754,Chauveau,8,P.Q.,PQ,Charles-Hubert Riverin,3307,7.63
+754,Chauveau,6,P.L.Q./Q.L.P.,PLQ,Igor Pivovar,1651,3.81
+754,Chauveau,23,P.N.,OTH,Renaud Blais,213,0.49
+754,Chauveau,99237,C.Q.,OTH,Christine Lepage,201,0.46
+754,Chauveau,29,E.A.,OTH,Nicolas Bouffard-Savoie,44,0.1
+918,Chicoutimi,27,C.A.Q.-E.F.L.,CAQ,Andrée Laforest,19345,62.28
+918,Chicoutimi,8,P.Q.,PQ,Alice Villeneuve,4415,14.21
+918,Chicoutimi,40,Q.S.,QS,Adrien Guibert-Barthez,3741,12.04
+918,Chicoutimi,22,P.C.Q-E.E.D.,PCQ,Éric Girard,2619,8.43
+918,Chicoutimi,6,P.L.Q./Q.L.P.,PLQ,Gabriel Caron,943,3.04
+460,Chomedey,6,P.L.Q./Q.L.P.,PLQ,Sona Lakhoyan Olivier,11895,36.52
+460,Chomedey,27,C.A.Q.-E.F.L.,CAQ,George Platanitis,8696,26.7
+460,Chomedey,22,P.C.Q-E.E.D.,PCQ,Konstantinos Merakos,6467,19.85
+460,Chomedey,40,Q.S.,QS,Zachary Robert,2570,7.89
+460,Chomedey,8,P.Q.,PQ,Rachid Bandou,2343,7.19
+460,Chomedey,10,P.V.Q./G.P.Q.,OTH,Sahbi Nablia,311,0.95
+460,Chomedey,99285,B.M.-E.B.H.,OTH,Federica Gangai,290,0.89
+814,Chutes-de-la-Chaudière,27,C.A.Q.-E.F.L.,CAQ,Martine Biron,22055,47.46
+814,Chutes-de-la-Chaudière,22,P.C.Q-E.E.D.,PCQ,Mario Fortier,12640,27.2
+814,Chutes-de-la-Chaudière,8,P.Q.,PQ,François-Noël Brault,5163,11.11
+814,Chutes-de-la-Chaudière,40,Q.S.,QS,Caroline Thibault,4311,9.28
+814,Chutes-de-la-Chaudière,6,P.L.Q./Q.L.P.,PLQ,Wafa Oueslati,2298,4.95
+826,Côte-du-Sud,27,C.A.Q.-E.F.L.,CAQ,Mathieu Rivest,16116,47.69
+826,Côte-du-Sud,22,P.C.Q-E.E.D.,PCQ,Frédéric Poulin,7910,23.41
+826,Côte-du-Sud,8,P.Q.,PQ,Michel Forget,4316,12.77
+826,Côte-du-Sud,40,Q.S.,QS,Guillaume Dufour,3154,9.33
+826,Côte-du-Sud,6,P.L.Q./Q.L.P.,PLQ,Sylvain Lemieux,2132,6.31
+826,Côte-du-Sud,29,E.A.,OTH,Sylvain Cloutier,164,0.49
+320,D'Arcy-McGee,6,P.L.Q./Q.L.P.,PLQ,Elisabeth Prass,13298,51.41
+320,D'Arcy-McGee,22,P.C.Q-E.E.D.,PCQ,Bonnie Feigenbaum,5677,21.95
+320,D'Arcy-McGee,40,Q.S.,QS,Hilal Pilavci,2203,8.52
+320,D'Arcy-McGee,27,C.A.Q.-E.F.L.,CAQ,Junlian Leblanc,1529,5.91
+320,D'Arcy-McGee,99263,P.C.Q./C.P.Q,OTH,Marc Perez,1285,4.97
+320,D'Arcy-McGee,8,P.Q.,PQ,Renée-Claude Lafontaine,648,2.51
+320,D'Arcy-McGee,99285,B.M.-E.B.H.,OTH,Joel Debellefeuille,613,2.37
+320,D'Arcy-McGee,10,P.V.Q./G.P.Q.,OTH,Moussa Seck,547,2.11
+320,D'Arcy-McGee,7,P.M.L.Q.,OTH,Diane Johnston,66,0.26
+508,Deux-Montagnes,27,C.A.Q.-E.F.L.,CAQ,Benoît Charette,15854,47.08
+508,Deux-Montagnes,8,P.Q.,PQ,Guillaume Lalonde,5777,17.16
+508,Deux-Montagnes,40,Q.S.,QS,Olivier Côté,4766,14.15
+508,Deux-Montagnes,6,P.L.Q./Q.L.P.,PLQ,Marc Allaire,3460,10.27
+508,Deux-Montagnes,22,P.C.Q-E.E.D.,PCQ,Isabelle Baril,3308,9.82
+508,Deux-Montagnes,10,P.V.Q./G.P.Q.,OTH,Amavi Tagodoe,317,0.94
+508,Deux-Montagnes,99237,C.Q.,OTH,Hélèna Courteau,119,0.35
+508,Deux-Montagnes,99275,U.F.F.,OTH,Dominique Dubois-Massey,74,0.22
+138,Drummond-Bois-Francs,27,C.A.Q.-E.F.L.,CAQ,Sébastien Schneeberger,18747,51.64
+138,Drummond-Bois-Francs,22,P.C.Q-E.E.D.,PCQ,Myriam Cournoyer,6314,17.39
+138,Drummond-Bois-Francs,8,P.Q.,PQ,Emrick Couture-Picard,5462,15.05
+138,Drummond-Bois-Francs,40,Q.S.,QS,Tony Martel,3866,10.65
+138,Drummond-Bois-Francs,6,P.L.Q./Q.L.P.,PLQ,Pierre Poirier,1455,4.01
+138,Drummond-Bois-Francs,10,P.V.Q./G.P.Q.,OTH,Marco Beauchesne,367,1.01
+138,Drummond-Bois-Francs,29,E.A.,OTH,Steve Therion,91,0.25
+914,Dubuc,27,C.A.Q.-E.F.L.,CAQ,François Tremblay,15427,57.6
+914,Dubuc,8,P.Q.,PQ,Émile Simard,4699,17.55
+914,Dubuc,22,P.C.Q-E.E.D.,PCQ,Tommy Pageau,2956,11.04
+914,Dubuc,40,Q.S.,QS,Andrée-Anne Brillant,2833,10.58
+914,Dubuc,6,P.L.Q./Q.L.P.,PLQ,Berry Zinga Nkuni,666,2.49
+914,Dubuc,99237,C.Q.,OTH,Gilbert Simard,200,0.75
+902,Duplessis,27,C.A.Q.-E.F.L.,CAQ,Kateri Champagne Jourdain,8785,45.14
+902,Duplessis,8,P.Q.,PQ,Marilou Vanier,4825,24.79
+902,Duplessis,22,P.C.Q-E.E.D.,PCQ,Roberto Stea,3059,15.72
+902,Duplessis,40,Q.S.,QS,Uapukun Mestokosho,1821,9.36
+902,Duplessis,6,P.L.Q./Q.L.P.,PLQ,Chamroeun Khuon,783,4.02
+902,Duplessis,99237,C.Q.,OTH,Jacques Gélineau,190,0.98
+466,Fabre,27,C.A.Q.-E.F.L.,CAQ,Alice Abou-Khalil,10912,31.81
+466,Fabre,6,P.L.Q./Q.L.P.,PLQ,Sonia Baudelot,10606,30.91
+466,Fabre,22,P.C.Q-E.E.D.,PCQ,Stéphane Turmel,5205,15.17
+466,Fabre,40,Q.S.,QS,Jessy Léger,3820,11.13
+466,Fabre,8,P.Q.,PQ,Catherine Dansereau-Redhead,3346,9.75
+466,Fabre,10,P.V.Q./G.P.Q.,OTH,Lynn Buchanan,418,1.22
+854,Gaspé,27,C.A.Q.-E.F.L.,CAQ,Stéphane Sainte-Croix,7542,41.4
+854,Gaspé,8,P.Q.,PQ,Méganne Perry Mélançon,6832,37.5
+854,Gaspé,40,Q.S.,QS,Yv Bonnier Viger,1634,8.97
+854,Gaspé,6,P.L.Q./Q.L.P.,PLQ,Michel Marin,1255,6.89
+854,Gaspé,22,P.C.Q-E.E.D.,PCQ,Pier-Luc Bouchard,956,5.25
+614,Gatineau,27,C.A.Q.-E.F.L.,CAQ,Robert Bussière,17055,46.74
+614,Gatineau,6,P.L.Q./Q.L.P.,PLQ,Caryl Green,7137,19.56
+614,Gatineau,40,Q.S.,QS,Laura Avalos,4415,12.1
+614,Gatineau,22,P.C.Q-E.E.D.,PCQ,Joëlle Jammal,3927,10.76
+614,Gatineau,8,P.Q.,PQ,Raphaël Déry,3542,9.71
+614,Gatineau,99263,P.C.Q./C.P.Q,OTH,Danilo Velasquez,327,0.9
+614,Gatineau,99286,D.D.,OTH,Robert Dupuis,88,0.24
+346,Gouin,40,Q.S.,QS,Gabriel Nadeau-Dubois,17283,59.44
+346,Gouin,8,P.Q.,PQ,Vincent Delorme,3962,13.63
+346,Gouin,27,C.A.Q.-E.F.L.,CAQ,Catherine Pelletier,3596,12.37
+346,Gouin,6,P.L.Q./Q.L.P.,PLQ,Rita Ikhouane,2444,8.4
+346,Gouin,22,P.C.Q-E.E.D.,PCQ,Jayson Paquette Gendron,903,3.11
+346,Gouin,10,P.V.Q./G.P.Q.,OTH,Valérie Vedrines,602,2.07
+346,Gouin,42,P.Cu.Q.,OTH,Chef Thémis,199,0.68
+346,Gouin,23,P.N.,OTH,Jean-Benoit Garneau-Bédard,89,0.31
+206,Granby,27,C.A.Q.-E.F.L.,CAQ,François Bonnardel,21515,58.19
+206,Granby,40,Q.S.,QS,Anne-Sophie Legault,5282,14.29
+206,Granby,8,P.Q.,PQ,Guy Bouthillier,4378,11.84
+206,Granby,22,P.C.Q-E.E.D.,PCQ,Stéphane Bernier,3737,10.11
+206,Granby,6,P.L.Q./Q.L.P.,PLQ,Penny Lamarre,1758,4.76
+206,Granby,10,P.V.Q./G.P.Q.,OTH,Andrzej Wisniowski,263,0.71
+206,Granby,29,E.A.,OTH,Jimmy Paquin,38,0.1
+502,Groulx,27,C.A.Q.-E.F.L.,CAQ,Eric Girard,17431,47.75
+502,Groulx,40,Q.S.,QS,Marie-Noëlle Aubertin,5919,16.21
+502,Groulx,8,P.Q.,PQ,Jeanne Craig-Larouche,5588,15.31
+502,Groulx,6,P.L.Q./Q.L.P.,PLQ,Audrey Medaino-Tardif,4024,11.02
+502,Groulx,22,P.C.Q-E.E.D.,PCQ,Valerie Messore,3177,8.7
+502,Groulx,10,P.V.Q./G.P.Q.,OTH,Victoria Shahsavar-Arshad,368,1.01
+352,Hochelaga-Maisonneuve,40,Q.S.,QS,Alexandre Leduc,12784,50.84
+352,Hochelaga-Maisonneuve,27,C.A.Q.-E.F.L.,CAQ,Rebecca McCann,4728,18.8
+352,Hochelaga-Maisonneuve,8,P.Q.,PQ,Stephan Fogaing,4015,15.97
+352,Hochelaga-Maisonneuve,6,P.L.Q./Q.L.P.,PLQ,Line Flore Tchetmi,1957,7.78
+352,Hochelaga-Maisonneuve,22,P.C.Q-E.E.D.,PCQ,Louise Poudrier,1161,4.62
+352,Hochelaga-Maisonneuve,10,P.V.Q./G.P.Q.,OTH,Wejden Chouchene,337,1.34
+352,Hochelaga-Maisonneuve,99237,C.Q.,OTH,James Strayer,84,0.33
+352,Hochelaga-Maisonneuve,7,P.M.L.Q.,OTH,Christine Dandenault,78,0.31
+602,Hull,27,C.A.Q.-E.F.L.,CAQ,Suzanne Tremblay,11060,34.64
+602,Hull,6,P.L.Q./Q.L.P.,PLQ,Maryse Gaudreault,8276,25.92
+602,Hull,40,Q.S.,QS,Mathieu Perron-Dufour,6623,20.75
+602,Hull,8,P.Q.,PQ,Camille Pellerin-Forget,3122,9.78
+602,Hull,22,P.C.Q-E.E.D.,PCQ,Lise Couture,2189,6.86
+602,Hull,10,P.V.Q./G.P.Q.,OTH,Rachid Jemmah,655,2.05
+216,Huntingdon,27,C.A.Q.-E.F.L.,CAQ,Carole Mallette,13664,46.64
+216,Huntingdon,6,P.L.Q./Q.L.P.,PLQ,Jean-Claude Poissant,4214,14.39
+216,Huntingdon,22,P.C.Q-E.E.D.,PCQ,François Gagnon,3923,13.39
+216,Huntingdon,8,P.Q.,PQ,Nathan Leblanc,3522,12.02
+216,Huntingdon,40,Q.S.,QS,Emmanuelle Perras,3265,11.15
+216,Huntingdon,10,P.V.Q./G.P.Q.,OTH,José Bro,367,1.25
+216,Huntingdon,99263,P.C.Q./C.P.Q,OTH,Raymond Frizzell,339,1.16
+210,Iberville,27,C.A.Q.-E.F.L.,CAQ,Audrey Bogemans,18223,53.15
+210,Iberville,8,P.Q.,PQ,Jean-Alexandre Côté,5227,15.24
+210,Iberville,40,Q.S.,QS,Philippe Jetten-Vigeant,4703,13.72
+210,Iberville,22,P.C.Q-E.E.D.,PCQ,Anne Casabonne,3863,11.27
+210,Iberville,6,P.L.Q./Q.L.P.,PLQ,Steve Trinque,1934,5.64
+210,Iberville,99237,C.Q.,OTH,Philippe Brassard,257,0.75
+210,Iberville,99286,D.D.,OTH,Jean-Charles Cléroux,81,0.24
+858,Îles-de-la-Madeleine,8,P.Q.,PQ,Joël Arseneau,3877,46.35
+858,Îles-de-la-Madeleine,27,C.A.Q.-E.F.L.,CAQ,Jonathan Lapierre,3338,39.91
+858,Îles-de-la-Madeleine,6,P.L.Q./Q.L.P.,PLQ,Gil Thériault,606,7.25
+858,Îles-de-la-Madeleine,40,Q.S.,QS,Jean-Philippe Déraspe,450,5.38
+858,Îles-de-la-Madeleine,22,P.C.Q-E.E.D.,PCQ,Evan Leblanc,93,1.11
+310,Jacques-Cartier,6,P.L.Q./Q.L.P.,PLQ,Gregory Kelley,18158,62.57
+310,Jacques-Cartier,22,P.C.Q-E.E.D.,PCQ,Louis-Charles Fortier,3260,11.23
+310,Jacques-Cartier,27,C.A.Q.-E.F.L.,CAQ,Rébecca Guénard-Chouinard,2735,9.42
+310,Jacques-Cartier,99263,P.C.Q./C.P.Q,OTH,Arthur Fischer,1462,5.04
+310,Jacques-Cartier,40,Q.S.,QS,Marie-Ève Mathieu,1456,5.02
+310,Jacques-Cartier,10,P.V.Q./G.P.Q.,OTH,Virginie Beaudet,1074,3.7
+310,Jacques-Cartier,8,P.Q.,PQ,Chantal Beauregard,877,3.02
+736,Jean-Lesage,40,Q.S.,QS,Sol Zanetti,11390,37.77
+736,Jean-Lesage,27,C.A.Q.-E.F.L.,CAQ,Christiane Gamache,9426,31.26
+736,Jean-Lesage,22,P.C.Q-E.E.D.,PCQ,Denise Peter,4258,14.12
+736,Jean-Lesage,8,P.Q.,PQ,Michaël Potvin,3337,11.07
+736,Jean-Lesage,6,P.L.Q./Q.L.P.,PLQ,Charles Robert,1326,4.4
+736,Jean-Lesage,10,P.V.Q./G.P.Q.,OTH,Félix-Antoine Bérubé-Simard,237,0.79
+736,Jean-Lesage,99237,C.Q.,OTH,Mario Ledoux,67,0.22
+736,Jean-Lesage,7,P.M.L.Q.,OTH,Claude Moreau,57,0.19
+736,Jean-Lesage,99286,D.D.,OTH,Lucie Perreault,56,0.19
+364,Jeanne-Mance-Viger,6,P.L.Q./Q.L.P.,PLQ,Filomena Rotiroti,14471,53.93
+364,Jeanne-Mance-Viger,27,C.A.Q.-E.F.L.,CAQ,Julie De Martino,4455,16.6
+364,Jeanne-Mance-Viger,22,P.C.Q-E.E.D.,PCQ,Chakib Saad,3113,11.6
+364,Jeanne-Mance-Viger,40,Q.S.,QS,Marie-Josée Forget,2858,10.65
+364,Jeanne-Mance-Viger,8,P.Q.,PQ,Laurence Massey,1122,4.18
+364,Jeanne-Mance-Viger,99263,P.C.Q./C.P.Q,OTH,Giovanni Manfredi,496,1.85
+364,Jeanne-Mance-Viger,10,P.V.Q./G.P.Q.,OTH,Alessandra Szilagyi,319,1.19
+702,Jean-Talon,27,C.A.Q.-E.F.L.,CAQ,Joëlle Boutin,11105,32.5
+702,Jean-Talon,40,Q.S.,QS,Olivier Bolduc,8117,23.76
+702,Jean-Talon,8,P.Q.,PQ,Gabriel Coulombe,6386,18.69
+702,Jean-Talon,6,P.L.Q./Q.L.P.,PLQ,Julie White,4616,13.51
+702,Jean-Talon,22,P.C.Q-E.E.D.,PCQ,Sébastien Clavet,3541,10.36
+702,Jean-Talon,10,P.V.Q./G.P.Q.,OTH,Alexandre Dallaire,262,0.77
+702,Jean-Talon,99237,C.Q.,OTH,Julien Cardinal,93,0.27
+702,Jean-Talon,29,E.A.,OTH,Stéphane Pouleur,44,0.13
+126,Johnson,27,C.A.Q.-E.F.L.,CAQ,André Lamontagne,21944,52.5
+126,Johnson,22,P.C.Q-E.E.D.,PCQ,Luce Daneau,6323,15.13
+126,Johnson,8,P.Q.,PQ,Jérémie Poirier,6024,14.41
+126,Johnson,40,Q.S.,QS,Nancy Mongeau,5769,13.8
+126,Johnson,6,P.L.Q./Q.L.P.,PLQ,Mounirou Younoussa,1469,3.51
+126,Johnson,99286,D.D.,OTH,Cindy Courtemanche,271,0.65
+570,Joliette,27,C.A.Q.-E.F.L.,CAQ,François St-Louis,17925,45.58
+570,Joliette,8,P.Q.,PQ,Véronique Venne,12281,31.23
+570,Joliette,40,Q.S.,QS,Flavie Trudel,4476,11.38
+570,Joliette,22,P.C.Q-E.E.D.,PCQ,Pascal Laurin,3470,8.82
+570,Joliette,6,P.L.Q./Q.L.P.,PLQ,Diana Mélissa Crispin,1178,3.0
+922,Jonquière,27,C.A.Q.-E.F.L.,CAQ,Yannick Gagnon,18196,59.39
+922,Jonquière,8,P.Q.,PQ,Caroline Dubé,5912,19.3
+922,Jonquière,22,P.C.Q-E.E.D.,PCQ,Isabelle Champagne,2926,9.55
+922,Jonquière,40,Q.S.,QS,Karla Cynthia Garcia Martinez,2778,9.07
+922,Jonquière,6,P.L.Q./Q.L.P.,PLQ,Wilda Solon,648,2.12
+922,Jonquière,23,P.N.,OTH,Line Bélanger,177,0.58
+594,Labelle,27,C.A.Q.-E.F.L.,CAQ,Chantale Jeannotte,17662,53.08
+594,Labelle,8,P.Q.,PQ,Daniel Corbeil,6366,19.13
+594,Labelle,40,Q.S.,QS,Jasmine Roy,4079,12.26
+594,Labelle,22,P.C.Q-E.E.D.,PCQ,Claude Paquin,3173,9.54
+594,Labelle,6,P.L.Q./Q.L.P.,PLQ,Annie Bélizaire,1679,5.05
+594,Labelle,99237,C.Q.,OTH,François Beauchamp,313,0.94
+926,Lac-Saint-Jean,27,C.A.Q.-E.F.L.,CAQ,Eric Girard,14798,51.47
+926,Lac-Saint-Jean,8,P.Q.,PQ,William Fradette,7367,25.62
+926,Lac-Saint-Jean,22,P.C.Q-E.E.D.,PCQ,Luc Martel,3270,11.37
+926,Lac-Saint-Jean,40,Q.S.,QS,Elsa Moulin,2178,7.58
+926,Lac-Saint-Jean,6,P.L.Q./Q.L.P.,PLQ,Tricia Murray,867,3.02
+926,Lac-Saint-Jean,99237,C.Q.,OTH,Martin Lavoie,156,0.54
+926,Lac-Saint-Jean,99291,P.Li.Q.,OTH,Chantale Villeneuve,116,0.4
+390,LaFontaine,6,P.L.Q./Q.L.P.,PLQ,Marc Tanguay,13398,51.67
+390,LaFontaine,27,C.A.Q.-E.F.L.,CAQ,Loredana Bacchi,5189,20.01
+390,LaFontaine,22,P.C.Q-E.E.D.,PCQ,Yassir Madih,3406,13.14
+390,LaFontaine,40,Q.S.,QS,Anne B-Godbout,2301,8.87
+390,LaFontaine,8,P.Q.,PQ,Shawn Vermette-Tassoni,1322,5.1
+390,LaFontaine,10,P.V.Q./G.P.Q.,OTH,Quinn Brunet,313,1.21
+720,La Peltrie,27,C.A.Q.-E.F.L.,CAQ,Éric Caire,19714,44.35
+720,La Peltrie,22,P.C.Q-E.E.D.,PCQ,Stéphane Lachance,13291,29.9
+720,La Peltrie,8,P.Q.,PQ,Martin Trudel,4415,9.93
+720,La Peltrie,40,Q.S.,QS,Lucie Villeneuve,3954,8.9
+720,La Peltrie,6,P.L.Q./Q.L.P.,PLQ,Frédéric Doumalin,2517,5.66
+720,La Peltrie,10,P.V.Q./G.P.Q.,OTH,Sandra Mara Riedo,289,0.65
+720,La Peltrie,23,P.N.,OTH,Olivier Grondin,151,0.34
+720,La Peltrie,99237,C.Q.,OTH,Alain Fortin,71,0.16
+720,La Peltrie,99286,D.D.,OTH,Martin Grand'Maison,46,0.1
+236,La Pinière,6,P.L.Q./Q.L.P.,PLQ,Linda Caron,12688,38.51
+236,La Pinière,27,C.A.Q.-E.F.L.,CAQ,Samuel Gatien,10272,31.17
+236,La Pinière,22,P.C.Q-E.E.D.,PCQ,Tzarevna Bratkova,3345,10.15
+236,La Pinière,40,Q.S.,QS,Jean-Claude Mugaba,3301,10.02
+236,La Pinière,8,P.Q.,PQ,Suzanne Gagnon,2577,7.82
+236,La Pinière,10,P.V.Q./G.P.Q.,OTH,Ryan Akshay Newbergher,396,1.2
+236,La Pinière,99263,P.C.Q./C.P.Q,OTH,Donna Pinel,371,1.13
+244,Laporte,27,C.A.Q.-E.F.L.,CAQ,Isabelle Poulet,10361,30.76
+244,Laporte,6,P.L.Q./Q.L.P.,PLQ,Mathieu Gratton,9707,28.82
+244,Laporte,40,Q.S.,QS,Claude Lefrançois,5968,17.72
+244,Laporte,8,P.Q.,PQ,Soledad Orihuela-Bouchard,4108,12.19
+244,Laporte,22,P.C.Q-E.E.D.,PCQ,Evelyne Latreille,2488,7.39
+244,Laporte,10,P.V.Q./G.P.Q.,OTH,Jean-Philippe Charest,497,1.48
+244,Laporte,99263,P.C.Q./C.P.Q,OTH,Herby Fremont,445,1.32
+244,Laporte,99237,C.Q.,OTH,Ian Parent,113,0.34
+232,La Prairie,27,C.A.Q.-E.F.L.,CAQ,Christian Dubé,18229,52.71
+232,La Prairie,6,P.L.Q./Q.L.P.,PLQ,Julie Guertin,4791,13.85
+232,La Prairie,40,Q.S.,QS,Pierre-Marc Allaire-Daly,4531,13.1
+232,La Prairie,8,P.Q.,PQ,Sarah Joly-Simard,3950,11.42
+232,La Prairie,22,P.C.Q-E.E.D.,PCQ,Marie Pelletier,2751,7.95
+232,La Prairie,99237,C.Q.,OTH,Barbara Joannette,281,0.81
+232,La Prairie,7,P.M.L.Q.,OTH,Normand Chouinard,50,0.14
+554,L'Assomption,27,C.A.Q.-E.F.L.,CAQ,François Legault,18637,58.63
+554,L'Assomption,40,Q.S.,QS,Martin Lefebvre,4553,14.32
+554,L'Assomption,8,P.Q.,PQ,Catherine Provost,4370,13.75
+554,L'Assomption,22,P.C.Q-E.E.D.,PCQ,Ernesto Almeida,2424,7.63
+554,L'Assomption,6,P.L.Q./Q.L.P.,PLQ,Thomas Ano-Dumas,1806,5.68
+344,Laurier-Dorion,40,Q.S.,QS,Andrés Fontecilla,13323,48.8
+344,Laurier-Dorion,6,P.L.Q./Q.L.P.,PLQ,Deepak Awasti,5344,19.57
+344,Laurier-Dorion,27,C.A.Q.-E.F.L.,CAQ,Vicki Marcoux,3203,11.73
+344,Laurier-Dorion,8,P.Q.,PQ,Maxime Larochelle,2800,10.26
+344,Laurier-Dorion,22,P.C.Q-E.E.D.,PCQ,Guy Diotte,1512,5.54
+344,Laurier-Dorion,99285,B.M.-E.B.H.,OTH,Amir Khan,480,1.76
+344,Laurier-Dorion,10,P.V.Q./G.P.Q.,OTH,Ismaila Marega,332,1.22
+344,Laurier-Dorion,42,P.Cu.Q.,OTH,Amélie Villeneuve,157,0.58
+344,Laurier-Dorion,23,P.N.,OTH,Mathieu Marcil,77,0.28
+344,Laurier-Dorion,99237,C.Q.,OTH,Anthony Van Duyse,75,0.27
+454,Laval-des-Rapides,27,C.A.Q.-E.F.L.,CAQ,Céline Haytayan,10599,31.9
+454,Laval-des-Rapides,6,P.L.Q./Q.L.P.,PLQ,Saul Polo,9546,28.73
+454,Laval-des-Rapides,40,Q.S.,QS,Josée Chevalier,5542,16.68
+454,Laval-des-Rapides,8,P.Q.,PQ,Andréanne Fiola,4293,12.92
+454,Laval-des-Rapides,22,P.C.Q-E.E.D.,PCQ,Nicolas Lussier-Clément,2852,8.58
+454,Laval-des-Rapides,10,P.V.Q./G.P.Q.,OTH,Zied Damergi,398,1.2
+670,Laviolette-Saint-Maurice,27,C.A.Q.-E.F.L.,CAQ,Marie-Louise Tardif,19418,51.72
+670,Laviolette-Saint-Maurice,22,P.C.Q-E.E.D.,PCQ,Pierre-David Tremblay,6287,16.75
+670,Laviolette-Saint-Maurice,8,P.Q.,PQ,Pascal Bastarache,6010,16.01
+670,Laviolette-Saint-Maurice,40,Q.S.,QS,France Lavigne,3568,9.5
+670,Laviolette-Saint-Maurice,6,P.L.Q./Q.L.P.,PLQ,Kévin Nzoula-Mendome,1875,4.99
+670,Laviolette-Saint-Maurice,0,Ind,OTH,Jean-Patrick Berthiaume,137,0.36
+670,Laviolette-Saint-Maurice,99275,U.F.F.,OTH,Raoul Parent,126,0.34
+670,Laviolette-Saint-Maurice,99293,A.F.C.,OTH,Josée St-Georges,122,0.32
+530,Les Plaines,27,C.A.Q.-E.F.L.,CAQ,Lucie Lecours,13922,50.54
+530,Les Plaines,8,P.Q.,PQ,Normand Ouellette,4444,16.13
+530,Les Plaines,40,Q.S.,QS,Richard Jr Leblanc,3668,13.32
+530,Les Plaines,22,P.C.Q-E.E.D.,PCQ,Ian Lavallée,3333,12.1
+530,Les Plaines,6,P.L.Q./Q.L.P.,PLQ,Elizabeth Stavrakakis,1895,6.88
+530,Les Plaines,10,P.V.Q./G.P.Q.,OTH,Mohamed Benmoumene,282,1.02
+818,Lévis,27,C.A.Q.-E.F.L.,CAQ,Bernard Drainville,18051,48.79
+818,Lévis,22,P.C.Q-E.E.D.,PCQ,Karine Laflamme,7677,20.75
+818,Lévis,8,P.Q.,PQ,Pierre-Gilles Morel,4775,12.91
+818,Lévis,40,Q.S.,QS,Valérie Cayouette-Guilloteau,4244,11.47
+818,Lévis,6,P.L.Q./Q.L.P.,PLQ,Richard Garon,1899,5.13
+818,Lévis,10,P.V.Q./G.P.Q.,OTH,Mehdi Lahlou,213,0.58
+818,Lévis,99237,C.Q.,OTH,André Voyer,138,0.37
+810,Lotbinière-Frontenac,27,C.A.Q.-E.F.L.,CAQ,Isabelle Lecours,18330,43.72
+810,Lotbinière-Frontenac,22,P.C.Q-E.E.D.,PCQ,Christian Gauthier,13503,32.2
+810,Lotbinière-Frontenac,40,Q.S.,QS,Christine Gilbert,3925,9.36
+810,Lotbinière-Frontenac,8,P.Q.,PQ,Louise Marchand,3688,8.8
+810,Lotbinière-Frontenac,6,P.L.Q./Q.L.P.,PLQ,Normand Côté,2483,5.92
+708,Louis-Hébert,27,C.A.Q.-E.F.L.,CAQ,Geneviève Guilbault,17803,47.21
+708,Louis-Hébert,8,P.Q.,PQ,Victor Dubuc,6228,16.52
+708,Louis-Hébert,22,P.C.Q-E.E.D.,PCQ,Marika Robitaille,5509,14.61
+708,Louis-Hébert,40,Q.S.,QS,Steven Lachance,4537,12.03
+708,Louis-Hébert,6,P.L.Q./Q.L.P.,PLQ,Dominic Cardinal,3283,8.71
+708,Louis-Hébert,10,P.V.Q./G.P.Q.,OTH,Daydree Vendette,285,0.76
+708,Louis-Hébert,99286,D.D.,OTH,Jean-Pierre Hamel,33,0.09
+708,Louis-Hébert,29,E.A.,OTH,Yolaine Brochu,32,0.08
+304,Marguerite-Bourgeoys,6,P.L.Q./Q.L.P.,PLQ,Fred Beauchemin,12635,44.78
+304,Marguerite-Bourgeoys,27,C.A.Q.-E.F.L.,CAQ,Vicky Michaud,6533,23.15
+304,Marguerite-Bourgeoys,22,P.C.Q-E.E.D.,PCQ,Aleksa Drakul,3103,11.0
+304,Marguerite-Bourgeoys,40,Q.S.,QS,Angélique Soleil Lavoie,2898,10.27
+304,Marguerite-Bourgeoys,8,P.Q.,PQ,Suzanne Tremblay,1966,6.97
+304,Marguerite-Bourgeoys,99285,B.M.-E.B.H.,OTH,Keeton Clarke,549,1.95
+304,Marguerite-Bourgeoys,10,P.V.Q./G.P.Q.,OTH,Carole Thériault,409,1.45
+304,Marguerite-Bourgeoys,99237,C.Q.,OTH,Serge Bellemare,123,0.44
+246,Marie-Victorin,27,C.A.Q.-E.F.L.,CAQ,Shirley Dorismond,9212,33.11
+246,Marie-Victorin,8,P.Q.,PQ,Pierre Nantel,6913,24.85
+246,Marie-Victorin,40,Q.S.,QS,Shophika Vaithyanathasarma,6307,22.67
+246,Marie-Victorin,6,P.L.Q./Q.L.P.,PLQ,Lyes Chekal,2793,10.04
+246,Marie-Victorin,22,P.C.Q-E.E.D.,PCQ,Lara Stillo,1952,7.02
+246,Marie-Victorin,10,P.V.Q./G.P.Q.,OTH,Vincent Aquin-Belleau,308,1.11
+246,Marie-Victorin,99237,C.Q.,OTH,Martine Ouellet,260,0.93
+246,Marie-Victorin,7,P.M.L.Q.,OTH,Pierre Chénier,48,0.17
+246,Marie-Victorin,29,E.A.,OTH,Florent Portron,27,0.1
+306,Marquette,6,P.L.Q./Q.L.P.,PLQ,Enrico Ciccone,12255,46.73
+306,Marquette,27,C.A.Q.-E.F.L.,CAQ,Marc Baaklini,5722,21.82
+306,Marquette,40,Q.S.,QS,Jérémy Côté,2956,11.27
+306,Marquette,22,P.C.Q-E.E.D.,PCQ,Sam Nassr,2395,9.13
+306,Marquette,8,P.Q.,PQ,Stéphane Richard,2114,8.06
+306,Marquette,10,P.V.Q./G.P.Q.,OTH,Shameem Jauffur,682,2.6
+306,Marquette,0,Ind,OTH,Félix Vincent Ardea,100,0.38
+666,Maskinongé,27,C.A.Q.-E.F.L.,CAQ,Simon Allaire,17096,53.5
+666,Maskinongé,22,P.C.Q-E.E.D.,PCQ,Serge Noël,5131,16.06
+666,Maskinongé,8,P.Q.,PQ,Dominique Gélinas,4519,14.14
+666,Maskinongé,40,Q.S.,QS,Simon Piotte,3162,9.9
+666,Maskinongé,6,P.L.Q./Q.L.P.,PLQ,Alexandra Malenfant-Veilleux,1619,5.07
+666,Maskinongé,10,P.V.Q./G.P.Q.,OTH,Daniel Simon,227,0.71
+666,Maskinongé,99275,U.F.F.,OTH,Françoise Boisvert,90,0.28
+666,Maskinongé,0,Ind,OTH,Alain Bélanger,69,0.22
+666,Maskinongé,37,P51,OTH,Gilles Brodeur,40,0.13
+548,Masson,27,C.A.Q.-E.F.L.,CAQ,Mathieu Lemay,18195,51.6
+548,Masson,8,P.Q.,PQ,Stéphane Handfield,6432,18.24
+548,Masson,40,Q.S.,QS,Émile Bellerose-Simard,4610,13.07
+548,Masson,22,P.C.Q-E.E.D.,PCQ,François Truchon,2972,8.43
+548,Masson,6,P.L.Q./Q.L.P.,PLQ,Gabriel Bourret,2723,7.72
+548,Masson,10,P.V.Q./G.P.Q.,OTH,Marc-André Bélisle,332,0.94
+842,Matane-Matapédia,8,P.Q.,PQ,Pascal Bérubé,20057,67.43
+842,Matane-Matapédia,27,C.A.Q.-E.F.L.,CAQ,Jean-Sébastien Barriault,5163,17.36
+842,Matane-Matapédia,22,P.C.Q-E.E.D.,PCQ,Alexandre Leblanc,2316,7.79
+842,Matane-Matapédia,40,Q.S.,QS,Marie-Phare Boucher,1450,4.87
+842,Matane-Matapédia,6,P.L.Q./Q.L.P.,PLQ,Harley Ryan Lounsbury,637,2.14
+842,Matane-Matapédia,99275,U.F.F.,OTH,Madeleine Rose,123,0.41
+340,Maurice-Richard,40,Q.S.,QS,Haroun Bouazzi,10903,34.67
+340,Maurice-Richard,27,C.A.Q.-E.F.L.,CAQ,Audrey Murray,8542,27.16
+340,Maurice-Richard,6,P.L.Q./Q.L.P.,PLQ,Jonathan Marleau,5414,17.22
+340,Maurice-Richard,8,P.Q.,PQ,Chantal Jorg,4612,14.67
+340,Maurice-Richard,22,P.C.Q-E.E.D.,PCQ,Louise Sexton,1322,4.2
+340,Maurice-Richard,10,P.V.Q./G.P.Q.,OTH,Gilles Fournelle,311,0.99
+340,Maurice-Richard,99285,B.M.-E.B.H.,OTH,Andrea Di Stefano,145,0.46
+340,Maurice-Richard,0,Ind,OTH,Kassandre Chéry Théodat,115,0.37
+340,Maurice-Richard,99237,C.Q.,OTH,Patrick Bouchardy,83,0.26
+104,Mégantic,27,C.A.Q.-E.F.L.,CAQ,François Jacques,12973,46.17
+104,Mégantic,22,P.C.Q-E.E.D.,PCQ,Mathieu Chenard,6252,22.25
+104,Mégantic,40,Q.S.,QS,Marilyn Ouellet,3592,12.78
+104,Mégantic,8,P.Q.,PQ,André Duncan,3588,12.77
+104,Mégantic,6,P.L.Q./Q.L.P.,PLQ,Eloïse Gagné,1604,5.71
+104,Mégantic,37,P51,OTH,André Giguère,89,0.32
+350,Mercier,40,Q.S.,QS,Ruba Ghazal,14755,53.92
+350,Mercier,8,P.Q.,PQ,Sabrina Mercier-Ullhorn,3986,14.57
+350,Mercier,6,P.L.Q./Q.L.P.,PLQ,Catherine Boundjia,3837,14.02
+350,Mercier,27,C.A.Q.-E.F.L.,CAQ,Florence Lavictoire,2814,10.28
+350,Mercier,22,P.C.Q-E.E.D.,PCQ,Emmanuel Da Costa,1051,3.84
+350,Mercier,10,P.V.Q./G.P.Q.,OTH,Véronique Langlois,818,2.99
+350,Mercier,23,P.N.,OTH,Jenny Cartwright,102,0.37
+482,Mille-Îles,6,P.L.Q./Q.L.P.,PLQ,Virginie Dufour,9522,32.38
+482,Mille-Îles,27,C.A.Q.-E.F.L.,CAQ,Julie Séide,9097,30.93
+482,Mille-Îles,40,Q.S.,QS,Guillaume Lajoie,3789,12.88
+482,Mille-Îles,8,P.Q.,PQ,Michel Lachance,3551,12.07
+482,Mille-Îles,22,P.C.Q-E.E.D.,PCQ,Ange Claude Bigilimana,3105,10.56
+482,Mille-Îles,10,P.V.Q./G.P.Q.,OTH,Bianca Jitaru,346,1.18
+514,Mirabel,27,C.A.Q.-E.F.L.,CAQ,Sylvie D'Amours,21639,50.11
+514,Mirabel,8,P.Q.,PQ,Carole Savoie,7246,16.78
+514,Mirabel,40,Q.S.,QS,Marjolaine Goudreau,6222,14.41
+514,Mirabel,22,P.C.Q-E.E.D.,PCQ,Gala Durand,4936,11.43
+514,Mirabel,6,P.L.Q./Q.L.P.,PLQ,Isabella Giosi,2918,6.76
+514,Mirabel,99275,U.F.F.,OTH,Pierre Larouche,159,0.37
+514,Mirabel,99286,D.D.,OTH,Rémi Lavoie,64,0.15
+252,Montarville,27,C.A.Q.-E.F.L.,CAQ,Nathalie Roy,19045,45.9
+252,Montarville,8,P.Q.,PQ,Daniel Michelin,7753,18.69
+252,Montarville,40,Q.S.,QS,Marie-Christine Veilleux,6741,16.25
+252,Montarville,6,P.L.Q./Q.L.P.,PLQ,Lucie Gagnon,5090,12.27
+252,Montarville,22,P.C.Q-E.E.D.,PCQ,Evans Henry,2124,5.12
+252,Montarville,10,P.V.Q./G.P.Q.,OTH,Jeanne Dufour,601,1.45
+252,Montarville,99237,C.Q.,OTH,Isadora Lamouche,134,0.32
+742,Montmorency,27,C.A.Q.-E.F.L.,CAQ,Jean-François Simard,19124,45.18
+742,Montmorency,22,P.C.Q-E.E.D.,PCQ,Mylene Bouchard,11031,26.06
+742,Montmorency,40,Q.S.,QS,Annie-Pierre Bélanger,5100,12.05
+742,Montmorency,8,P.Q.,PQ,Cynthia Therrien,4773,11.28
+742,Montmorency,6,P.L.Q./Q.L.P.,PLQ,Mustapha Berri,1969,4.65
+742,Montmorency,10,P.V.Q./G.P.Q.,OTH,Nicholas Lescarbeau,274,0.65
+742,Montmorency,7,P.M.L.Q.,OTH,Jean Bédard,55,0.13
+336,Mont-Royal-Outremont,6,P.L.Q./Q.L.P.,PLQ,Michelle Setlakwe,11658,39.35
+336,Mont-Royal-Outremont,40,Q.S.,QS,Isabelle Leblanc,6008,20.28
+336,Mont-Royal-Outremont,27,C.A.Q.-E.F.L.,CAQ,Sarah Beaumier,4677,15.79
+336,Mont-Royal-Outremont,8,P.Q.,PQ,Ophélie Bastien,3385,11.42
+336,Mont-Royal-Outremont,22,P.C.Q-E.E.D.,PCQ,Sabrina Ait Akil,2522,8.51
+336,Mont-Royal-Outremont,10,P.V.Q./G.P.Q.,OTH,Malik Guelmi,785,2.65
+336,Mont-Royal-Outremont,99263,P.C.Q./C.P.Q,OTH,Anne Goldberg Harrison,507,1.71
+336,Mont-Royal-Outremont,23,P.N.,OTH,David A Cherniak,87,0.29
+312,Nelligan,6,P.L.Q./Q.L.P.,PLQ,Monsef Derraji,17454,52.03
+312,Nelligan,27,C.A.Q.-E.F.L.,CAQ,Cynthia Lapierre,5584,16.65
+312,Nelligan,22,P.C.Q-E.E.D.,PCQ,Gary Charles,5061,15.09
+312,Nelligan,40,Q.S.,QS,Maxime Larue-Bourdages,1766,5.26
+312,Nelligan,8,P.Q.,PQ,Jocelyn Caron,1399,4.17
+312,Nelligan,99263,P.C.Q./C.P.Q,OTH,Jean Marier,1014,3.02
+312,Nelligan,99285,B.M.-E.B.H.,OTH,Neena Hanif,610,1.82
+312,Nelligan,10,P.V.Q./G.P.Q.,OTH,Daniel Reiniger,558,1.66
+312,Nelligan,99286,D.D.,OTH,Michael Hennawy,100,0.3
+150,Nicolet-Bécancour,27,C.A.Q.-E.F.L.,CAQ,Donald Martel,13956,47.05
+150,Nicolet-Bécancour,22,P.C.Q-E.E.D.,PCQ,Mario Lyonnais,6595,22.23
+150,Nicolet-Bécancour,8,P.Q.,PQ,Philippe Dumas,5095,17.18
+150,Nicolet-Bécancour,40,Q.S.,QS,Jacques Thériault Watso,2610,8.8
+150,Nicolet-Bécancour,6,P.L.Q./Q.L.P.,PLQ,Marie-Josée Jacques,1406,4.74
+324,Notre-Dame-de-Grâce,6,P.L.Q./Q.L.P.,PLQ,Désirée McGraw,12918,50.46
+324,Notre-Dame-de-Grâce,40,Q.S.,QS,Élisabeth Labelle,3967,15.49
+324,Notre-Dame-de-Grâce,22,P.C.Q-E.E.D.,PCQ,Roy Eappen,2087,8.15
+324,Notre-Dame-de-Grâce,27,C.A.Q.-E.F.L.,CAQ,Geneviève Lemay,1877,7.33
+324,Notre-Dame-de-Grâce,99285,B.M.-E.B.H.,OTH,Balarama Holness,1701,6.64
+324,Notre-Dame-de-Grâce,8,P.Q.,PQ,Cloé Rose Jenneau,1302,5.09
+324,Notre-Dame-de-Grâce,10,P.V.Q./G.P.Q.,OTH,Alex Tyrrell,956,3.73
+324,Notre-Dame-de-Grâce,99263,P.C.Q./C.P.Q,OTH,Constantine Eliadis,723,2.82
+324,Notre-Dame-de-Grâce,7,P.M.L.Q.,OTH,Rachel Hoffman,71,0.28
+120,Orford,27,C.A.Q.-E.F.L.,CAQ,Gilles Bélanger,14084,42.95
+120,Orford,40,Q.S.,QS,Kenza Sassi,5298,16.16
+120,Orford,6,P.L.Q./Q.L.P.,PLQ,Vicki-May Hamm,4917,14.99
+120,Orford,8,P.Q.,PQ,Monique Allard,4463,13.61
+120,Orford,22,P.C.Q-E.E.D.,PCQ,Martin Lamontagne Lacasse,3567,10.88
+120,Orford,99263,P.C.Q./C.P.Q,OTH,Mark Gandey,354,1.08
+120,Orford,99286,D.D.,OTH,Joel Lacroix,109,0.33
+626,Papineau,27,C.A.Q.-E.F.L.,CAQ,Mathieu Lacombe,19791,52.83
+626,Papineau,40,Q.S.,QS,Marie-Claude Latourelle,5164,13.78
+626,Papineau,22,P.C.Q-E.E.D.,PCQ,Marc Carrière,4970,13.27
+626,Papineau,8,P.Q.,PQ,Audrey-Ann Chicoine,3834,10.23
+626,Papineau,6,P.L.Q./Q.L.P.,PLQ,Wittlyn Kate Semervil,3151,8.41
+626,Papineau,10,P.V.Q./G.P.Q.,OTH,Melissa Arbour,450,1.2
+626,Papineau,99286,D.D.,OTH,Cédric Brazeau,104,0.28
+380,Pointe-aux-Trembles,27,C.A.Q.-E.F.L.,CAQ,Chantal Rouleau,12156,45.88
+380,Pointe-aux-Trembles,8,P.Q.,PQ,Jocelyn Desjardins,5265,19.87
+380,Pointe-aux-Trembles,40,Q.S.,QS,Simon Tremblay-Pepin,4084,15.41
+380,Pointe-aux-Trembles,6,P.L.Q./Q.L.P.,PLQ,Byanca Jeune,2750,10.38
+380,Pointe-aux-Trembles,22,P.C.Q-E.E.D.,PCQ,Yves Beaulieu,1804,6.81
+380,Pointe-aux-Trembles,10,P.V.Q./G.P.Q.,OTH,Alex Di Pardo,268,1.01
+380,Pointe-aux-Trembles,99237,C.Q.,OTH,Marc Michaud,82,0.31
+380,Pointe-aux-Trembles,7,P.M.L.Q.,OTH,Geneviève Royer,53,0.2
+380,Pointe-aux-Trembles,29,E.A.,OTH,Louis Chandonnet,33,0.12
+608,Pontiac,6,P.L.Q./Q.L.P.,PLQ,André Fortin,12477,43.68
+608,Pontiac,27,C.A.Q.-E.F.L.,CAQ,Corinne Canuel-Jolicoeur,7056,24.7
+608,Pontiac,22,P.C.Q-E.E.D.,PCQ,Terrence Watters,3118,10.92
+608,Pontiac,40,Q.S.,QS,Mike Owen Sebagenzi,2935,10.28
+608,Pontiac,8,P.Q.,PQ,Jolaine Paradis-Châteauneuf,1887,6.61
+608,Pontiac,10,P.V.Q./G.P.Q.,OTH,Pierre Cyr,616,2.16
+608,Pontiac,99263,P.C.Q./C.P.Q,OTH,William Twolan,475,1.66
+714,Portneuf,27,C.A.Q.-E.F.L.,CAQ,Vincent Caron,15412,47.38
+714,Portneuf,22,P.C.Q-E.E.D.,PCQ,Jacinthe-Eve Arel,9675,29.74
+714,Portneuf,8,P.Q.,PQ,Alexandre Mc Cabe,3203,9.85
+714,Portneuf,40,Q.S.,QS,Anne-Marie Melançon,2675,8.22
+714,Portneuf,6,P.L.Q./Q.L.P.,PLQ,Patrick Hayes,916,2.82
+714,Portneuf,0,Ind,OTH,Patrick Bourson,608,1.87
+714,Portneuf,99286,D.D.,OTH,Karine Simard,40,0.12
+582,Prévost,27,C.A.Q.-E.F.L.,CAQ,Sonia Bélanger,15903,46.23
+582,Prévost,8,P.Q.,PQ,Thérèse Chabot,6737,19.58
+582,Prévost,40,Q.S.,QS,Rose Crevier-Dagenais,5196,15.1
+582,Prévost,22,P.C.Q-E.E.D.,PCQ,Benoit Cloutier,4019,11.68
+582,Prévost,6,P.L.Q./Q.L.P.,PLQ,Suzanne Pomerleau,2072,6.02
+582,Prévost,10,P.V.Q./G.P.Q.,OTH,Michelle Vaz,374,1.09
+582,Prévost,99281,P.H.Q.,OTH,Michel Leclerc,100,0.29
+906,René-Lévesque,27,C.A.Q.-E.F.L.,CAQ,Yves Montigny,11377,58.92
+906,René-Lévesque,8,P.Q.,PQ,Jeff Dufour Tremblay,4087,21.17
+906,René-Lévesque,22,P.C.Q-E.E.D.,PCQ,Marie Renée Raymond,1955,10.12
+906,René-Lévesque,40,Q.S.,QS,Audrey Givern-Héroux,1459,7.56
+906,René-Lévesque,6,P.L.Q./Q.L.P.,PLQ,Marc Duperron,307,1.59
+906,René-Lévesque,99237,C.Q.,OTH,Richard Delisle,82,0.42
+906,René-Lévesque,0,Ind,OTH,(Philippe) Gilles Babin,42,0.22
+560,Repentigny,27,C.A.Q.-E.F.L.,CAQ,Pascale Déry,19747,52.36
+560,Repentigny,8,P.Q.,PQ,Aïcha Van Dun,6686,17.73
+560,Repentigny,40,Q.S.,QS,Ednal Marc,4783,12.68
+560,Repentigny,6,P.L.Q./Q.L.P.,PLQ,Virginie Bouchard,3758,9.96
+560,Repentigny,22,P.C.Q-E.E.D.,PCQ,Serge Cloutier,2419,6.41
+560,Repentigny,99237,C.Q.,OTH,David Brisebois,321,0.85
+264,Richelieu,27,C.A.Q.-E.F.L.,CAQ,Jean-Bernard Émond,17098,55.89
+264,Richelieu,8,P.Q.,PQ,Gabriel Arpin,6204,20.28
+264,Richelieu,40,Q.S.,QS,David Dionne,3084,10.08
+264,Richelieu,22,P.C.Q-E.E.D.,PCQ,Marie-Ève Dionne,2697,8.82
+264,Richelieu,6,P.L.Q./Q.L.P.,PLQ,Anthony Sauriol,1262,4.13
+264,Richelieu,99237,C.Q.,OTH,Alejandra Velasquez,165,0.54
+264,Richelieu,99286,D.D.,OTH,André Blanchette,82,0.27
+132,Richmond,27,C.A.Q.-E.F.L.,CAQ,André Bachand,21255,46.75
+132,Richmond,40,Q.S.,QS,Philippe Pagé,9031,19.86
+132,Richmond,22,P.C.Q-E.E.D.,PCQ,Marylaine Bélair,6683,14.7
+132,Richmond,8,P.Q.,PQ,Jacinthe Caron,5803,12.76
+132,Richmond,6,P.L.Q./Q.L.P.,PLQ,Mona Louis-Jean,2476,5.45
+132,Richmond,99286,D.D.,OTH,Richard Magnan,112,0.25
+132,Richmond,0,Ind,OTH,Raymond de Martin,105,0.23
+838,Rimouski,27,C.A.Q.-E.F.L.,CAQ,Maïté Blanchette Vézina,13761,41.75
+838,Rimouski,8,P.Q.,PQ,Samuel Ouellet,9440,28.64
+838,Rimouski,40,Q.S.,QS,Carol-Ann Kack,7042,21.37
+838,Rimouski,22,P.C.Q-E.E.D.,PCQ,Stéphanie Du Mesnil,1566,4.75
+838,Rimouski,6,P.L.Q./Q.L.P.,PLQ,Claude Laroche,992,3.01
+838,Rimouski,99237,C.Q.,OTH,Pierre Beaudoin,104,0.32
+838,Rimouski,99286,D.D.,OTH,Danielle Mélanie Gaudreau,55,0.17
+834,Rivière-du-Loup-Témiscouata,27,C.A.Q.-E.F.L.,CAQ,Amélie Dionne,18183,52.06
+834,Rivière-du-Loup-Témiscouata,8,P.Q.,PQ,Félix Rioux,6141,17.58
+834,Rivière-du-Loup-Témiscouata,40,Q.S.,QS,Myriam Lapointe-Gagnon,5102,14.61
+834,Rivière-du-Loup-Témiscouata,22,P.C.Q-E.E.D.,PCQ,Louise Moreault,3937,11.27
+834,Rivière-du-Loup-Témiscouata,6,P.L.Q./Q.L.P.,PLQ,Louis Bellemare,1388,3.97
+834,Rivière-du-Loup-Témiscouata,99237,C.Q.,OTH,Carole Sierpien,174,0.5
+316,Robert-Baldwin,6,P.L.Q./Q.L.P.,PLQ,Brigitte Garceau,17228,57.76
+316,Robert-Baldwin,22,P.C.Q-E.E.D.,PCQ,Axel Lellouche,4779,16.02
+316,Robert-Baldwin,27,C.A.Q.-E.F.L.,CAQ,Maïté Beaudoin,2909,9.75
+316,Robert-Baldwin,40,Q.S.,QS,Marieve Ruel,1498,5.02
+316,Robert-Baldwin,99263,P.C.Q./C.P.Q,OTH,Jonathan Gray,1231,4.13
+316,Robert-Baldwin,99285,B.M.-E.B.H.,OTH,Qaiser Choudhry,792,2.66
+316,Robert-Baldwin,8,P.Q.,PQ,Alix Martel,776,2.6
+316,Robert-Baldwin,10,P.V.Q./G.P.Q.,OTH,David MacFarquhar,614,2.06
+930,Roberval,27,C.A.Q.-E.F.L.,CAQ,Nancy Guillemette,15017,56.19
+930,Roberval,8,P.Q.,PQ,Patrice Bouchard,5488,20.53
+930,Roberval,22,P.C.Q-E.E.D.,PCQ,Samuel Gaudreault,3038,11.37
+930,Roberval,40,Q.S.,QS,Michaël Ottereyes,1826,6.83
+930,Roberval,6,P.L.Q./Q.L.P.,PLQ,Maxim Lavoie,1217,4.55
+930,Roberval,99237,C.Q.,OTH,Lynda Lalancette,141,0.53
+356,Rosemont,40,Q.S.,QS,Vincent Marissal,13311,37.62
+356,Rosemont,27,C.A.Q.-E.F.L.,CAQ,Sandra O'Connor,8157,23.06
+356,Rosemont,8,P.Q.,PQ,Pierre-Luc Brillant,7527,21.27
+356,Rosemont,6,P.L.Q./Q.L.P.,PLQ,Sherlyne Duverneau,4170,11.79
+356,Rosemont,22,P.C.Q-E.E.D.,PCQ,Marie-France Lemay,1605,4.54
+356,Rosemont,10,P.V.Q./G.P.Q.,OTH,Jamie D'Souza,452,1.28
+356,Rosemont,99237,C.Q.,OTH,Jean-François Racine,158,0.45
+576,Rousseau,27,C.A.Q.-E.F.L.,CAQ,Louis-Charles Thouin,14117,50.58
+576,Rousseau,8,P.Q.,PQ,Pierre Vanier,4985,17.86
+576,Rousseau,22,P.C.Q-E.E.D.,PCQ,Gisèle Desroches,4180,14.98
+576,Rousseau,40,Q.S.,QS,Ernesto Castro Roch,3667,13.14
+576,Rousseau,6,P.L.Q./Q.L.P.,PLQ,Estelle Regina Lokrou,963,3.45
+636,Rouyn-Noranda-Témiscamingue,27,C.A.Q.-E.F.L.,CAQ,Daniel Bernard,12975,45.16
+636,Rouyn-Noranda-Témiscamingue,40,Q.S.,QS,Émilise Lessard-Therrien,8890,30.94
+636,Rouyn-Noranda-Témiscamingue,8,P.Q.,PQ,Jean-François Vachon,3232,11.25
+636,Rouyn-Noranda-Témiscamingue,22,P.C.Q-E.E.D.,PCQ,Robert Daigle,2202,7.66
+636,Rouyn-Noranda-Témiscamingue,6,P.L.Q./Q.L.P.,PLQ,Arnaud Warolin,1255,4.37
+636,Rouyn-Noranda-Témiscamingue,10,P.V.Q./G.P.Q.,OTH,Chantal Corswarem,178,0.62
+110,Saint-François,27,C.A.Q.-E.F.L.,CAQ,Geneviève Hébert,17280,42.43
+110,Saint-François,40,Q.S.,QS,Mélissa Généreux,11491,28.21
+110,Saint-François,22,P.C.Q-E.E.D.,PCQ,Dany Bernier,4483,11.01
+110,Saint-François,8,P.Q.,PQ,Sylvie Tanguay,3712,9.11
+110,Saint-François,6,P.L.Q./Q.L.P.,PLQ,Claude Charron,3220,7.91
+110,Saint-François,99263,P.C.Q./C.P.Q,OTH,Colleen McInerney,285,0.7
+110,Saint-François,99237,C.Q.,OTH,Olivier Dion,257,0.63
+326,Saint-Henri-Sainte-Anne,6,P.L.Q./Q.L.P.,PLQ,Dominique Anglade,11728,36.15
+326,Saint-Henri-Sainte-Anne,40,Q.S.,QS,Guillaume Cliche-Rivard,8992,27.72
+326,Saint-Henri-Sainte-Anne,27,C.A.Q.-E.F.L.,CAQ,Nicolas Huard-Isabelle,5751,17.73
+326,Saint-Henri-Sainte-Anne,8,P.Q.,PQ,Julie Daubois,2683,8.27
+326,Saint-Henri-Sainte-Anne,22,P.C.Q-E.E.D.,PCQ,Mischa White,2063,6.36
+326,Saint-Henri-Sainte-Anne,10,P.V.Q./G.P.Q.,OTH,Jean-Pierre Duford,620,1.91
+326,Saint-Henri-Sainte-Anne,99285,B.M.-E.B.H.,OTH,Janusz Kaczorowski,530,1.63
+326,Saint-Henri-Sainte-Anne,99286,D.D.,OTH,Esther Gaudreault,73,0.23
+260,Saint-Hyacinthe,27,C.A.Q.-E.F.L.,CAQ,Chantal Soucy,22487,54.42
+260,Saint-Hyacinthe,8,P.Q.,PQ,Alexis Gagné-Lebrun,6900,16.7
+260,Saint-Hyacinthe,40,Q.S.,QS,Philippe Daigneault,5636,13.64
+260,Saint-Hyacinthe,22,P.C.Q-E.E.D.,PCQ,Kim Beaudoin,4066,9.84
+260,Saint-Hyacinthe,6,P.L.Q./Q.L.P.,PLQ,Agnieszka Wnorowska,1705,4.13
+260,Saint-Hyacinthe,10,P.V.Q./G.P.Q.,OTH,Mustapha Jaalouk,217,0.53
+260,Saint-Hyacinthe,99237,C.Q.,OTH,Julie Raiche,168,0.41
+260,Saint-Hyacinthe,0,Ind,OTH,Gary Daigneault,142,0.34
+212,Saint-Jean,27,C.A.Q.-E.F.L.,CAQ,Louis Lemieux,21734,50.65
+212,Saint-Jean,8,P.Q.,PQ,Alexandre Girard-Duchaine,8248,19.22
+212,Saint-Jean,40,Q.S.,QS,Pierre-Luc Lavertu,6334,14.76
+212,Saint-Jean,22,P.C.Q-E.E.D.,PCQ,Dominick Melnitzky,3603,8.4
+212,Saint-Jean,6,P.L.Q./Q.L.P.,PLQ,Benjamin Roy,2565,5.98
+212,Saint-Jean,99237,C.Q.,OTH,Denis Thériault,290,0.68
+212,Saint-Jean,99286,D.D.,OTH,Raymond Choquette,133,0.31
+526,Saint-Jérôme,27,C.A.Q.-E.F.L.,CAQ,Youri Chassin,20527,50.02
+526,Saint-Jérôme,8,P.Q.,PQ,Sandrine Michon,7727,18.83
+526,Saint-Jérôme,40,Q.S.,QS,Marc-Olivier Neveu,6411,15.62
+526,Saint-Jérôme,22,P.C.Q-E.E.D.,PCQ,Maxime Clermont,3998,9.74
+526,Saint-Jérôme,6,P.L.Q./Q.L.P.,PLQ,Martin Plante,1858,4.53
+526,Saint-Jérôme,10,P.V.Q./G.P.Q.,OTH,Marcella Bustamante,517,1.26
+318,Saint-Laurent,6,P.L.Q./Q.L.P.,PLQ,Marwah Rizqy,14304,49.97
+318,Saint-Laurent,27,C.A.Q.-E.F.L.,CAQ,Mélanie Gauthier,4091,14.29
+318,Saint-Laurent,22,P.C.Q-E.E.D.,PCQ,Catherine St-Clair,3973,13.88
+318,Saint-Laurent,40,Q.S.,QS,Gérard Briand,2840,9.92
+318,Saint-Laurent,8,P.Q.,PQ,Karl Dugal,1696,5.92
+318,Saint-Laurent,99285,B.M.-E.B.H.,OTH,Rizwan Muhammad Rajput,752,2.63
+318,Saint-Laurent,99263,P.C.Q./C.P.Q,OTH,Myrtis-Eirene Fossey,533,1.86
+318,Saint-Laurent,10,P.V.Q./G.P.Q.,OTH,Othmane Benzekri,439,1.53
+330,Sainte-Marie-Saint-Jacques,40,Q.S.,QS,Manon Massé,10892,47.69
+330,Sainte-Marie-Saint-Jacques,6,P.L.Q./Q.L.P.,PLQ,Christopher Baenninger,3621,15.85
+330,Sainte-Marie-Saint-Jacques,8,P.Q.,PQ,Phoeby Laplante,3362,14.72
+330,Sainte-Marie-Saint-Jacques,27,C.A.Q.-E.F.L.,CAQ,Aurélie Diep,3268,14.31
+330,Sainte-Marie-Saint-Jacques,22,P.C.Q-E.E.D.,PCQ,Stéfan Marquis,1138,4.98
+330,Sainte-Marie-Saint-Jacques,10,P.V.Q./G.P.Q.,OTH,Hailey Roop,450,1.97
+330,Sainte-Marie-Saint-Jacques,7,P.M.L.Q.,OTH,Linda Sullivan,64,0.28
+330,Sainte-Marie-Saint-Jacques,99237,C.Q.,OTH,Jency Mercier,46,0.2
+470,Sainte-Rose,27,C.A.Q.-E.F.L.,CAQ,Christopher Skeete,14091,38.5
+470,Sainte-Rose,6,P.L.Q./Q.L.P.,PLQ,Michel Trottier,8778,23.98
+470,Sainte-Rose,40,Q.S.,QS,Karine Cliche,5243,14.33
+470,Sainte-Rose,8,P.Q.,PQ,Lyne Jubinville,4536,12.39
+470,Sainte-Rose,22,P.C.Q-E.E.D.,PCQ,Stéphanie Beauchamp,3429,9.37
+470,Sainte-Rose,10,P.V.Q./G.P.Q.,OTH,Pierrette Kamning Nguendjong,304,0.83
+470,Sainte-Rose,99237,C.Q.,OTH,Simon Filiatrault,128,0.35
+470,Sainte-Rose,37,P51,OTH,Kevin Fortin,91,0.25
+230,Sanguinet,27,C.A.Q.-E.F.L.,CAQ,Christine Fréchette,14607,48.78
+230,Sanguinet,8,P.Q.,PQ,Daphnée Paquin-Auger,4882,16.3
+230,Sanguinet,40,Q.S.,QS,Virginie Bernier,3925,13.11
+230,Sanguinet,22,P.C.Q-E.E.D.,PCQ,François Gibeault,3164,10.57
+230,Sanguinet,6,P.L.Q./Q.L.P.,PLQ,Rodrigue Asatsop,2952,9.86
+230,Sanguinet,10,P.V.Q./G.P.Q.,OTH,Halimatou Bah,325,1.09
+230,Sanguinet,99237,C.Q.,OTH,Martine Lajoie,58,0.19
+230,Sanguinet,7,P.M.L.Q.,OTH,Hélène Héroux,31,0.1
+116,Sherbrooke,40,Q.S.,QS,Christine Labrie,15548,41.91
+116,Sherbrooke,27,C.A.Q.-E.F.L.,CAQ,Caroline St-Hilaire,13076,35.25
+116,Sherbrooke,8,P.Q.,PQ,Yves Bérubé-Lauzière,3373,9.09
+116,Sherbrooke,22,P.C.Q-E.E.D.,PCQ,Zoée St-Amand,2501,6.74
+116,Sherbrooke,6,P.L.Q./Q.L.P.,PLQ,François Vaes,2166,5.84
+116,Sherbrooke,10,P.V.Q./G.P.Q.,OTH,Victoria Karny,204,0.55
+116,Sherbrooke,23,P.N.,OTH,Raphaëlle Dompierre,113,0.3
+116,Sherbrooke,99237,C.Q.,OTH,Alain Barbier,69,0.19
+116,Sherbrooke,99286,D.D.,OTH,Alexandre Asselin,48,0.13
+220,Soulanges,27,C.A.Q.-E.F.L.,CAQ,Marilyne Picard,17114,42.62
+220,Soulanges,6,P.L.Q./Q.L.P.,PLQ,Catherine St-Amour,8761,21.82
+220,Soulanges,22,P.C.Q-E.E.D.,PCQ,Éloïse Coulombe,5006,12.47
+220,Soulanges,40,Q.S.,QS,Sophie Samson,4353,10.84
+220,Soulanges,8,P.Q.,PQ,Samuel Patenaude,4124,10.27
+220,Soulanges,10,P.V.Q./G.P.Q.,OTH,Kristian Solarik,795,1.98
+250,Taillon,27,C.A.Q.-E.F.L.,CAQ,Lionel Carmant,14635,41.51
+250,Taillon,8,P.Q.,PQ,Andrée-Anne Bouvette-Turcot,7160,20.31
+250,Taillon,40,Q.S.,QS,Manon Blanchard,6663,18.9
+250,Taillon,6,P.L.Q./Q.L.P.,PLQ,Omar Cissé,4096,11.62
+250,Taillon,22,P.C.Q-E.E.D.,PCQ,Pierre-Marc Boyer,2280,6.47
+250,Taillon,99237,C.Q.,OTH,Frédéric Ouellet,336,0.95
+250,Taillon,99275,U.F.F.,OTH,Pierre Savignac,86,0.24
+730,Taschereau,40,Q.S.,QS,Etienne Grandmont,13588,39.53
+730,Taschereau,8,P.Q.,PQ,Jeanne Robin,7757,22.57
+730,Taschereau,27,C.A.Q.-E.F.L.,CAQ,Pascale St-Hilaire,7537,21.93
+730,Taschereau,22,P.C.Q-E.E.D.,PCQ,Marie-Josée Hélie,3012,8.76
+730,Taschereau,6,P.L.Q./Q.L.P.,PLQ,Ahmed Lamine Touré,2025,5.89
+730,Taschereau,10,P.V.Q./G.P.Q.,OTH,Andrew Karim,225,0.65
+730,Taschereau,99237,C.Q.,OTH,Jean-François Joubert,102,0.3
+730,Taschereau,0,Ind,OTH,Marie-Soleil Fillion,83,0.24
+730,Taschereau,29,E.A.,OTH,Guy Boivin,41,0.12
+542,Terrebonne,27,C.A.Q.-E.F.L.,CAQ,Pierre Fitzgibbon,20911,49.44
+542,Terrebonne,8,P.Q.,PQ,Geneviève Couture,7986,18.88
+542,Terrebonne,40,Q.S.,QS,Nadia Poirier,5352,12.65
+542,Terrebonne,6,P.L.Q./Q.L.P.,PLQ,Lindsay Jean,4301,10.17
+542,Terrebonne,22,P.C.Q-E.E.D.,PCQ,Daniela Andreeva,3357,7.94
+542,Terrebonne,10,P.V.Q./G.P.Q.,OTH,Nazar Tarpinian,308,0.73
+542,Terrebonne,99286,D.D.,OTH,Marie-France Meloche,80,0.19
+660,Trois-Rivières,27,C.A.Q.-E.F.L.,CAQ,Jean Boulet,18859,50.81
+660,Trois-Rivières,40,Q.S.,QS,Steven Roy Cullen,6069,16.35
+660,Trois-Rivières,8,P.Q.,PQ,Laurent Vézina,5323,14.34
+660,Trois-Rivières,22,P.C.Q-E.E.D.,PCQ,Karine Pépin,4552,12.26
+660,Trois-Rivières,6,P.L.Q./Q.L.P.,PLQ,Adams Tekougoum,2056,5.54
+660,Trois-Rivières,99237,C.Q.,OTH,Éric Trottier,148,0.4
+660,Trois-Rivières,99275,U.F.F.,OTH,Georges Samman,108,0.29
+938,Ungava,27,C.A.Q.-E.F.L.,CAQ,Denis Lamothe,3132,36.27
+938,Ungava,40,Q.S.,QS,Maïtée Labrecque-Saganash,2092,24.23
+938,Ungava,6,P.L.Q./Q.L.P.,PLQ,Tunu Napartuk,1571,18.19
+938,Ungava,8,P.Q.,PQ,Christine Moore,1084,12.55
+938,Ungava,22,P.C.Q-E.E.D.,PCQ,Nancy Lalancette,756,8.76
+240,Vachon,27,C.A.Q.-E.F.L.,CAQ,Ian Lafrenière,15984,44.91
+240,Vachon,6,P.L.Q./Q.L.P.,PLQ,Yves Mbattang,5718,16.07
+240,Vachon,40,Q.S.,QS,Jean-Philippe Samson,5343,15.01
+240,Vachon,8,P.Q.,PQ,Adam Wrzesien,4757,13.37
+240,Vachon,22,P.C.Q-E.E.D.,PCQ,Martine Boucher,3166,8.9
+240,Vachon,10,P.V.Q./G.P.Q.,OTH,Juan Carlos Nino Caita,404,1.14
+240,Vachon,99237,C.Q.,OTH,Jean-Pierre Lacombe,217,0.61
+726,Vanier-Les Rivières,27,C.A.Q.-E.F.L.,CAQ,Mario Asselin,20812,47.39
+726,Vanier-Les Rivières,22,P.C.Q-E.E.D.,PCQ,Donald Gagnon,8572,19.52
+726,Vanier-Les Rivières,8,P.Q.,PQ,William Duquette,5741,13.07
+726,Vanier-Les Rivières,40,Q.S.,QS,Karoline Boucher,5337,12.15
+726,Vanier-Les Rivières,6,P.L.Q./Q.L.P.,PLQ,Karl Filion,2760,6.28
+726,Vanier-Les Rivières,0,Ind,OTH,Mathieu Guillemette,282,0.64
+726,Vanier-Les Rivières,10,P.V.Q./G.P.Q.,OTH,Kadidia Mahamane Bamba,266,0.61
+726,Vanier-Les Rivières,99237,C.Q.,OTH,Jean Cloutier,148,0.34
+224,Vaudreuil,6,P.L.Q./Q.L.P.,PLQ,Marie-Claude Nichols,13608,34.22
+224,Vaudreuil,27,C.A.Q.-E.F.L.,CAQ,Eve Bélec,13032,32.77
+224,Vaudreuil,22,P.C.Q-E.E.D.,PCQ,Eve Théoret,4619,11.62
+224,Vaudreuil,40,Q.S.,QS,Cynthia Bilodeau,3671,9.23
+224,Vaudreuil,8,P.Q.,PQ,Christopher Massé,3061,7.7
+224,Vaudreuil,99263,P.C.Q./C.P.Q,OTH,David Hamelin-Schuilenburg,726,1.83
+224,Vaudreuil,10,P.V.Q./G.P.Q.,OTH,Kelley Boileau,496,1.25
+224,Vaudreuil,99285,B.M.-E.B.H.,OTH,Jaspal Singh Ahluwalia,477,1.2
+224,Vaudreuil,99286,D.D.,OTH,Paul Lynes,75,0.19
+256,Verchères,27,C.A.Q.-E.F.L.,CAQ,Suzanne Roy,23672,51.28
+256,Verchères,8,P.Q.,PQ,Cédric Gagnon-Ducharme,9561,20.71
+256,Verchères,40,Q.S.,QS,Manon Harvey,6665,14.44
+256,Verchères,22,P.C.Q-E.E.D.,PCQ,Pascal Déry,3269,7.08
+256,Verchères,6,P.L.Q./Q.L.P.,PLQ,Gabriel Lévesque,2438,5.28
+256,Verchères,10,P.V.Q./G.P.Q.,OTH,Nadim Saikali,318,0.69
+256,Verchères,99237,C.Q.,OTH,Germain Dallaire,97,0.21
+256,Verchères,0,Ind,OTH,Lucien Beauregard,86,0.19
+256,Verchères,99286,D.D.,OTH,Pauline Boisvert,55,0.12
+300,Verdun,40,Q.S.,QS,Alejandra Zaga Mendez,9562,30.75
+300,Verdun,6,P.L.Q./Q.L.P.,PLQ,Isabelle Melançon,9101,29.27
+300,Verdun,27,C.A.Q.-E.F.L.,CAQ,Véronique Tremblay,7150,23.0
+300,Verdun,8,P.Q.,PQ,Claudia Valdivia,2591,8.33
+300,Verdun,22,P.C.Q-E.E.D.,PCQ,Lucien Koty,1664,5.35
+300,Verdun,10,P.V.Q./G.P.Q.,OTH,Jannie Pellerin,542,1.74
+300,Verdun,99263,P.C.Q./C.P.Q,OTH,Scott Kilbride,301,0.97
+300,Verdun,23,P.N.,OTH,Marc-André Milette,65,0.21
+300,Verdun,99237,C.Q.,OTH,Alexandre Desmarais,61,0.2
+300,Verdun,7,P.M.L.Q.,OTH,Fernand Deschamps,30,0.1
+300,Verdun,99293,A.F.C.,OTH,Alain Rioux,26,0.08
+358,Viau,6,P.L.Q./Q.L.P.,PLQ,Frantz Benjamin,8049,38.18
+358,Viau,40,Q.S.,QS,Renée-Chantal Belinga,6418,30.44
+358,Viau,27,C.A.Q.-E.F.L.,CAQ,Justine Savard,3201,15.18
+358,Viau,8,P.Q.,PQ,Marc-Antoine Lecompte,1598,7.58
+358,Viau,22,P.C.Q-E.E.D.,PCQ,Alex Tembel,1294,6.14
+358,Viau,10,P.V.Q./G.P.Q.,OTH,Manel Chaouche,342,1.62
+358,Viau,99285,B.M.-E.B.H.,OTH,Marc II Réjouis,100,0.47
+358,Viau,99237,C.Q.,OTH,Serge Ricard,80,0.38
+476,Vimont,27,C.A.Q.-E.F.L.,CAQ,Valérie Schmaltz,10957,34.28
+476,Vimont,6,P.L.Q./Q.L.P.,PLQ,Anabela Monteiro,9541,29.85
+476,Vimont,22,P.C.Q-E.E.D.,PCQ,Stefano Piscitelli,4118,12.88
+476,Vimont,40,Q.S.,QS,Josée Bélanger,3669,11.48
+476,Vimont,8,P.Q.,PQ,Nathalie Lavigne,3379,10.57
+476,Vimont,10,P.V.Q./G.P.Q.,OTH,Rita Lo Cicero,301,0.94
+332,Westmount-Saint-Louis,6,P.L.Q./Q.L.P.,PLQ,Jennifer Maccarone,10576,50.48
+332,Westmount-Saint-Louis,40,Q.S.,QS,David Touchette,2687,12.82
+332,Westmount-Saint-Louis,27,C.A.Q.-E.F.L.,CAQ,Maria-Luisa Torres-Piaggio,2112,10.08
+332,Westmount-Saint-Louis,22,P.C.Q-E.E.D.,PCQ,Katya Rossokhata,1930,9.21
+332,Westmount-Saint-Louis,8,P.Q.,PQ,Florence Racicot,1267,6.05
+332,Westmount-Saint-Louis,99263,P.C.Q./C.P.Q,OTH,Colin Standish,1029,4.91
+332,Westmount-Saint-Louis,99285,B.M.-E.B.H.,OTH,Heidi Small,735,3.51
+332,Westmount-Saint-Louis,10,P.V.Q./G.P.Q.,OTH,Sam Kuhn,616,2.94

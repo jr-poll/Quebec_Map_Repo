@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+tmp/
+screens/
+compare/
+previews/
+html_screens/
+render_tmp/
+template_render/
+debug/
+build/
+!output/maps/mobile/build/
+output/maps/mobile/build/*
+!output/maps/mobile/build/fallback.json

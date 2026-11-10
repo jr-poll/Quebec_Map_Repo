@@ -1,0 +1,120 @@
+{
+ "name_mismatches": [],
+ "invalid_fixed": 0,
+ "land_source": "GADM 4.1 Canada level-1 (Québec); StatCan download returned a bot-check page (403), GADM preferred over the coarser Natural Earth fallback",
+ "lakes_removed": [
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "(unnamed)",
+  "Cabonga Reservoir",
+  "Lac Bermen",
+  "Lac Chavigny",
+  "Lac Minto",
+  "Lac Saint-Jean",
+  "Lac-à-l'Eau-Claire",
+  "Lake Abitibi",
+  "Lake Bienville",
+  "Lake Champlain",
+  "Lake Kipawa",
+  "Lake Mistassini",
+  "Lake Naococane",
+  "Lake Payne",
+  "Lake Plétipi",
+  "Lake Sakami",
+  "Réservoir Baskatong",
+  "Réservoir Gouin",
+  "Réservoir Manicouagan",
+  "Réservoir Outardes Quatre",
+  "Réservoir Pipmuacan",
+  "Réservoir de Caniapiscau",
+  "Réservoir de Caniapiscau",
+  "Réservoir de La Grande 2",
+  "Réservoir de La Grande 3",
+  "Smallwood Reservoir"
+ ],
+ "border_loss_gt2pct": [
+  [
+   813,
+   "Duplessis",
+   9.7
+  ]
+ ],
+ "iles_de_la_madeleine_land_km2": 231.5,
+ "duplessis_parts": 894,
+ "area_km2": {
+  "min": [
+   "Mercier",
+   5.42
+  ],
+  "max": [
+   "Ungava",
+   847038.0
+  ]
+ },
+ "largest_water_share": [
+  [
+   "Îles-de-la-Madeleine",
+   99.3
+  ],
+  [
+   "LaFontaine",
+   70.9
+  ],
+  [
+   "Gaspé",
+   65.2
+  ],
+  [
+   "Bourassa-Sauvé",
+   43.5
+  ],
+  [
+   "Repentigny",
+   43.4
+  ],
+  [
+   "Maurice-Richard",
+   39.3
+  ],
+  [
+   "Vaudreuil",
+   38.5
+  ],
+  [
+   "Nelligan",
+   37.4
+  ],
+  [
+   "Taillon",
+   36.2
+  ],
+  [
+   "Duplessis",
+   33.4
+  ],
+  [
+   "Marie-Victorin",
+   32.5
+  ],
+  [
+   "Châteauguay",
+   32.1
+  ]
+ ]
+}

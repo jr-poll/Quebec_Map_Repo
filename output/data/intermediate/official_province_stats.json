@@ -1,0 +1,34 @@
+{
+ "2026": {
+  "nbBureauVote": 20704,
+  "nbBureauVoteRempli": 20704,
+  "tauxBureauVoteRempli": 100.0,
+  "nbVoteValide": 4284358,
+  "nbVoteRejete": 63387,
+  "nbVoteExerce": 4347745,
+  "nbElecteurInscrit": 6495984,
+  "tauxParticipationTotal": "66.9297",
+  "nbCirconscription": 127,
+  "nbCirconscriptionAvecResultat": 127,
+  "nbCirconscriptionSansResultat": 0,
+  "tauxCirconscriptionSansResultat": 0.0,
+  "isResultatsFinaux": true,
+  "iso8601DateMAJ": "2026-10-26T12:14:37,000-04:00"
+ },
+ "2022": {
+  "nbBureauVote": 21897,
+  "nbBureauVoteRempli": 21897,
+  "tauxBureauVoteRempli": 100,
+  "nbVoteValide": 4112821,
+  "nbVoteRejete": 56316,
+  "nbVoteExerce": 4169137,
+  "nbElecteurInscrit": 6302789,
+  "tauxParticipationTotal": "66.1475",
+  "nbCirconscription": 125,
+  "nbCirconscriptionAvecResultat": 125,
+  "nbCirconscriptionSansResultat": 0,
+  "tauxCirconscriptionSansResultat": 0.0,
+  "isResultatsFinaux": true,
+  "iso8601DateMAJ": "2022-10-06T11:55:41,000-04:00"
+ }
+}
